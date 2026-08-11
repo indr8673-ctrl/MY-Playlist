@@ -1,0 +1,30 @@
+name: Auto Update Playlist
+
+on:
+  schedule:
+    # প্রতি ১ ঘণ্টা পর পর অটোমেটিক রান হবে
+    - cron: '0 * * * *'
+  workflow_dispatch: # ম্যানুয়ালি ক্লিক করে রান করার সুযোগ
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run update script
+        run: python update.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add playlist.m3u
+          git commit -m "Auto-updated playlist with fresh tokens" || exit 0
+          git push
