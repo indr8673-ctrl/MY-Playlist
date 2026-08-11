@@ -7,23 +7,31 @@ try:
 except Exception as e:
     my_playlist = "#EXTM3U\n"
 
-# ২. AlixBD এর লাইভ প্লেলিস্ট থেকে অটো-আপডেট কন্টেন্ট রিড করা
+# ২. AlixBD এর লাইভ প্লেলিস্ট থেকে চ্যানেল টেনে আনা
 alix_url = "https://alixbd.com/2022.m3u"
-req = urllib.request.Request(alix_url, headers={'User-Agent': 'Mozilla/5.0'})
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 
 try:
+    req = urllib.request.Request(alix_url, headers=headers)
     with urllib.request.urlopen(req) as response:
         alix_playlist = response.read().decode('utf-8')
 except Exception as e:
     alix_playlist = ""
 
-# ৩. দুটো প্লেলিস্টকে একসাথে জোড়া দেওয়া
-alix_channels = "\n".join([line for line in alix_playlist.splitlines() if not line.startswith('#EXTM3U')])
+# ৩. দুটো প্লেলিস্টকে ফিল্টার করে একসাথে জোড়া দেওয়া
+alix_lines = alix_playlist.splitlines()
+alix_channels = []
 
-final_playlist = my_playlist + "\n\n" + alix_channels
+for line in alix_lines:
+    if line.strip() and not line.startswith('#EXTM3U'):
+        alix_channels.append(line)
 
-# ৪. চূড়ান্ত অটো-আপডেট ফাইল হিসেবে playlist.m3u তে সেভ করা
+alix_content = "\n".join(alix_channels)
+
+# ৪. দুটো প্লেলিস্ট যুক্ত করে ফাইনাল M3U তৈরি
+final_playlist = my_playlist.strip() + "\n\n" + alix_content
+
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_playlist)
 
-print("Playlist auto-updated successfully!")
+print("Playlist successfully merged and updated!")
