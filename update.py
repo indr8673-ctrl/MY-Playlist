@@ -16,7 +16,7 @@ playlists_to_add = [
     },
     {
         "group_name": "Toffee BD",
-        "url": "http://140.245.107.220:5001/channels?url=https://playlist-cricfy.noobon.top/toffee.php"
+        "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
     }
 ]
 
