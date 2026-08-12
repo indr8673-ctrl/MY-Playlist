@@ -16,7 +16,15 @@ playlists_to_add = [
     },
     {
         "group_name": "Toffee BD",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
+        "url": "http://140.245.107.220:5001/channels?url=https://playlist-cricfy.noobon.top/toffee.php"
+    },
+    {
+        "group_name": "AKASH",
+        "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"
+    },
+    {
+        "group_name": "BDIX TV",
+        "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"
     }
 ]
 
@@ -26,7 +34,7 @@ headers = {
 
 all_external_channels = []
 
-# ৩. প্রতিটি লিঙ্ক থেকে চ্যানেল এনে গ্রুপের নাম ঠিক করা
+# ৩. প্রতিটি লিঙ্ক থেকে চ্যানেল এনে নির্দিষ্ট গ্রুপের নাম সেট করা
 for item in playlists_to_add:
     group_name = item["group_name"]
     url = item["url"]
@@ -71,4 +79,4 @@ final_content = f"{my_playlist}\n\n{external_content}"
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Sony BD and Toffee BD updated successfully!")
+print("All playlists (Sony, Toffee, AKASH, BDIX) updated successfully!")
