@@ -72,7 +72,7 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 
 
 #EXTINF:-1 group-title="BD News" tvg-logo="https://otapp.store/uploads/tv_image/sm/channel-9.png",Channel 9
-
+https://xtreamcode.allinonereborn.workers.dev/live/ratulhasan5a_246/lm43mozx/1008.ts
 
 #EXTINF:-1 tvg-logo="https://free.otapp.store/uploads/tv_image/sm/green-tv.png" group-title="BD News",Green Tv
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
@@ -298,9 +298,6 @@ http://103.155.18.186:8000/play/a125/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://m3u.cloudplay.qzz.io/z5/0-9-zeecafehd.m3u8
 
-#EXTINF:-1 group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Screenshot_2026-06-09_233511.png/revision/latest?cb=20260609181015",Unite8 sports 1 (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=ZEE_CAFE_HD&userid=SFQZ4LO2
-
 #EXTINF:-1 group-title="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Screenshot_2026-06-09_233511.png/revision/latest?cb=20260609181015",Unite8 sports 1 (airtle)2
 https://artl.yowaimo.in/sflex/stream.php?id=Unite8-Sports1-Hindi-HD&ts=1781757258&token=21ac24dfd82492671f7425b2282250bd6d90fa0378ce02145ade2dbf456bcdd0&exp=1784522058&Powered-by-StreamFlex=3cedb943ed1a88a6445b2b6cff301d50ea33a3d8c44eb620feb6d6de70c90667
 
@@ -331,9 +328,6 @@ http://212.102.34.8:9080/AndFlixHD/video.m3u8
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://objectstorage.ap-mumbai-1.oraclecloud.com/p/7Eg7LPw1gBcncVDrfwf__7yyrg13awaU6DmMk4gutavGYZgoAuAziv8e0aSEdU4G/n/bmaqqlwez184/b/GTPL_CHANNEL_LOGO/o/gtpl/UNITE8_SPORTS_2_HD.png",Unite8 sports 2 (7)
 http://103.155.18.186:8000/play/a126/index.m3u8
-
-#EXTINF:-1 group-title="Sports" tvg-logo="https://objectstorage.ap-mumbai-1.oraclecloud.com/p/7Eg7LPw1gBcncVDrfwf__7yyrg13awaU6DmMk4gutavGYZgoAuAziv8e0aSEdU4G/n/bmaqqlwez184/b/GTPL_CHANNEL_LOGO/o/gtpl/UNITE8_SPORTS_2_HD.png",Unite8 sports 2 (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=AND_FLIX_HD&userid=SFQZ4LO2
 
 #EXTINF:-1 group-title="Sports" tvg-logo="https://objectstorage.ap-mumbai-1.oraclecloud.com/p/7Eg7LPw1gBcncVDrfwf__7yyrg13awaU6DmMk4gutavGYZgoAuAziv8e0aSEdU4G/n/bmaqqlwez184/b/GTPL_CHANNEL_LOGO/o/gtpl/UNITE8_SPORTS_2_HD.png",Unite8 sports 2 (airtle)2
 https://yowaimo.in/Test/Sflex-ArtlPVT/AND_FLIX_HD.m3u8
@@ -480,12 +474,6 @@ http://103.151.60.162:2122/play/a0fo/index.m3u8?hls
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/logos/channel/logos/akegkk.png",Star Plus SD 
 https://yupptvcatchupire.yuppcdn.net/preview/starplusme/2500.m3u8
 
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/logos/channel/logos/akegkk.png",Star Plus HD (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=STAR_PLUS_HD&userid=SFQZ4LO2
-
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/logos/channel/logos/akegkk.png",Star Plus HD (airtle)2
-https://yowaimo.in/Artl/live.php?watchid=STAR_PLUS_HD&userid=SFQZ4LO2
-
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/logos/channel/logos/akegkk.png",Star Plus HD (Tata play)1
 http://119.156.228.231:9983/stream/channelid/95243181?ticket=A47EA1D14604A8B1E77A7CA8F64C45C576416BD9&profile=pass
 
@@ -497,9 +485,6 @@ http://202.70.146.135:8000/play/a009/index.m3u8
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/logos/channel/logos/akegkk.png",Star Plus HD (Tata play)4
 http://66.102.126.10:8000/play/a008/index.m3u8
-
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://www.medianews4u.com/wp-content/uploads/2020/06/Star-Utsav.jpg",Star Utsav (airtle)2
-https://yowaimo.in/Artl/live.php?watchid=STAR_UTSAV&userid=SFQZ4LO2
 
 #EXTINF:-1  group-title="Entertainment" ,Sony KAL
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
@@ -528,18 +513,11 @@ https://mflixott.com/tv/toffee-by-maruf/live.php?cid=sonysab_hd&chunks=992281599
 #EXTINF:-1  group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",Sony Sab SD 2
 https://stream.ottplus.bd/live/sub_hd_abr/live/sony_sub_hd_720/chunks.m3u8
 
-#EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD (Sony LIV)
-#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248
-
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",Sony Sab HD (jio)
 http://103.180.212.191:3500/live/471.m3u8
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",Sony Sab HD (jio)2
 http://live.balajibroadband.com:3500/live/471.m3u8
-
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",Sony Sab HD (airtle)
-https://yowaimo.in/Artl/live.php?watchid=SONY_SAB_HD&userid=SFQZ4LO2
 
 #EXTINF:-1  group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",Sony SD
 http://103.151.60.162:2122/play/a015/index.m3u8?hls
@@ -555,9 +533,6 @@ https://alex4528.site/k7m2q9x4b8nc/stream.ts?id=12356
 
 #EXTINF:-1  group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",Sony HD (jio)2
 http://live.balajibroadband.com:3500/live/291.m3u8
-
-#EXTINF:-1  group-title="Entertainment" tvg-logo="https://assets-prod.services.toffeelive.com/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",Sony HD (airtle)
-https://yowaimo.in/Sflex-ArtlPVT0719/SET_HD.m3u8
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-aath.png",Sony Aat
 http://103.151.61.12/SONY_AATH/video.m3u8?token=i7bZaZWaFrSIE0
@@ -577,13 +552,6 @@ http://103.180.212.191:3500/live/697.m3u8
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-aath.png",Sony Aat (jio)2
 http://live.balajibroadband.com:3500/live/697.m3u8
 
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-aath.png",Sony Aat  (Airtel)
-https://yowaimo.in/Artl/live.php?watchid=SONY_8&userid=SFQZ4LO2
-
-#EXTINF:-1 tvg-id="1000009273" tvg-name="SONY PAL" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL (Sony LIV)
-#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273
-
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-pal.png",Sony Pal (jio)
 http://103.180.212.191:3500/live/474.m3u8
 
@@ -594,9 +562,6 @@ http://live.balajibroadband.com:3500/live/474.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=474&e=.m3u8
 
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-pal.png",Sony Pal (Airtel)1
-https://yowaimo.in/Artl/live.php?watchid=SONY_PAL&userid=SFQZ4LO2
-
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=ed068cf84f0640ccbc7c0e395c0a272e&key=bb722190f2bb446391020411a7d0828b
@@ -605,9 +570,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoSSASCq73ujvayNn81Afdwd8jagrC9O6QIt9bGOialg&s=10",Zee TV SD
 https://stream.ottplus.bd/live/zee_tv_hd_abr/live/zee_tv_hd_720/chunks.m3u8
-
-#EXTINF:-1 group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoSSASCq73ujvayNn81Afdwd8jagrC9O6QIt9bGOialg&s=10",Zee TV HD (airtle)
-https://yowaimo.in/Artl/live.php?watchid=ZEE_CLASSIC&userid=SFQZ4LO2
 
 #EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmol/list/1920x1080listef6865f9714b40139037d98300559cd7.png", Zee Anmol TV (Zee)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
@@ -749,11 +711,11 @@ https://stream.kliv.in/ROPX/opp233/167551.m3u8
 #EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (Tata play)11
 https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8
 
-#EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)1
-https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8
+#EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)
+https://ranapkz.site/TVD/NEW/play.php?id=372986
 
-#EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)2 
-https://yowaimo.in/Artl/live.php?watchid=DISNEY_CHANNEL&userid=SFQZ4LO2
+#EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)1
+https://bdixgen.site//MAC/SHGOLD/play.php?id=281356
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)3
 https://go.skym3u.top/live/3b1f0d3d404f707f1c1d1a000708015a363d4a30140911271f7140423f3b2f1903426e694a3624322020372b1c1b242d3c2038715f03470e.m3u8
@@ -777,10 +739,7 @@ http://119.156.228.231:9983/stream/channelid/285878552?ticket=036B53AA134ACB2065
 https://sm-monirul.top/sm/proxy.php?id=hungama&formet=.m3u8
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFP63-xpmAbHAteQeLdQT7vKNgkeVfM4OS320z84L_Q&s=10",HUNGAMA (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=HUNGAMA&userid=SFQZ4LO2
-
-#EXTINF:-1 group-title="Kid" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFP63-xpmAbHAteQeLdQT7vKNgkeVfM4OS320z84L_Q&s=10",HUNGAMA (airtle)2
-https://yowaimo.in/Sflex-ArtlPVT0719/HUNGAMA.m3u8
+https://bdixgen.site//MAC/SHGOLD/play.php?id=834525
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIFP63-xpmAbHAteQeLdQT7vKNgkeVfM4OS320z84L_Q&s=10",HUNGAMA (airtle)3
 https://go.skym3u.top/live/3b1f0d3d404f707f1c1d1a000708015a363d4a30140911271f7140423f3b2f1903426e694a3a382f29242335713e56164a.m3u8
@@ -806,6 +765,9 @@ https://ranapkx.site/FLEX/play.php?id=246763
 #EXTINF:-1 group-title="Kid" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/germany/hd/disney-channel-hd-de.png",Disney HD (Tata play)6
 https://yowaimo.in/SF-SS/19741.m3u8
 
+#EXTINF:-1 tvg-id="super.hungama.kids" tvg-name="Super Hungama Kids" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/india/super-hungama-in.png" group-title="Kid",Super Hungama
+https://bdixgen.site//MAC/SHGOLD/play.php?id=834501
+
 #EXTINF:-1 tvg-id="super.hungama.kids" tvg-name="Super Hungama Kids" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/india/super-hungama-in.png" group-title="Kid",Super Hungama (Tata play)1
 http://rgkkw.live:80/live/1Aoen7elp5/IgMJ60tmAa/66162.ts
 
@@ -824,11 +786,8 @@ http://premiumtvs.space/live/YqXTywueEV/damp2purchase/355286.ts
 #EXTINF:-1 tvg-id="bal_bharat" tvg-logo="http://monirul.bro.bd/assets/images/BAL BHARAT1745041576.png" group-title="Kid",BAL BHARAT (Tata play)3
 https://yowaimo.in/SF-SS/355286.m3u8
 
-#EXTINF:-1 tvg-id="disney_juniar" tvg-logo="http://monirul.bro.bd/assets/images/DISNEY JUNIAR1750870581.png" group-title="Kid",DISNEY JUNIAR (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=DISNEY_JUNIOR&userid=SFQZ4LO2
-
 #EXTINF:-1 tvg-id="disney_juniar" tvg-logo="http://monirul.bro.bd/assets/images/DISNEY JUNIAR1750870581.png" group-title="Kid",DISNEY JUNIAR (airtle)2
-https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_JUNIOR.m3u8
+https://bdixgen.site//MAC/SHGOLD/play.php?id=645026
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://otapp.store/uploads/tv_image/sm/sonic-bangla.png",Sonic (jio)2
 http://live.balajibroadband.com:3500/live/815.m3u8
@@ -848,7 +807,6 @@ http://xcv70.fyi:8080/live/Ahsan1578/Sannata123/34011.ts
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sonic-hindi.png" group-title="Kid",Sonic 4
 http://xcv70.fyi:8080/live/adil2912/adil1229/34011.ts
 
-
 #EXTINF:-1 group-title="Kid" tvg-logo="https://otapp.store/uploads/tv_image/sm/sonic-bangla.png",Sonic (Tata Play)1
 http://66.102.126.10:8000/play/a00p/index.m3u8
 
@@ -860,9 +818,6 @@ http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://p1.hiclipart.com/preview/224/843/725/nick-hd-logo-png-clipart.jpg",Nick HD (airtle)2
 https://newfusion-rkdyiptv.vercel.app/api/rkdyiptv/playlist.m3u?action=stream&d=eyJpIjoiNDc1MTM2IiwiZSI6MTc4NDQ1MjU3NDI3NywicyI6MjA2NTIsImgiOiIyYTYyNjY2Y2Y3ODJhZWMxMGE2YyJ9
-
-#EXTINF:-1 group-title="Kid" tvg-logo="https://p1.hiclipart.com/preview/224/843/725/nick-hd-logo-png-clipart.jpg",Nick HD (airtle)3
-https://yowaimo.in/SF-SS/7438.m3u8
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://p1.hiclipart.com/preview/224/843/725/nick-hd-logo-png-clipart.jpg",Nick HD (Tata play)1
 https://s1.itcnbd.live/nick/index.m3u8
@@ -913,23 +868,13 @@ http://live.balajibroadband.com:3500/live/3424.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=3424&e=.m3u8
 
-#EXTINF:-1 tvg-id="1000001971" tvg-name="SONY YAY" group-title="Kid" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",SONY YAY (Sony LIV)
-#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971
-
 #EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",Sony yay Hindi 1
 http://xcv70.fyi:8080/live/Ahsan1578/Sannata123/26187.ts 
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",Sony yay Hindi 2
 http://xcv70.fyi:8080/live/adil2912/adil1229/26187.ts
 
-#EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",Sony yay (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=SONY_YAY&userid=SFQZ4LO2
-
 #EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",Sony yay (airtle)2
-https://yowaimo.in/Sflex-ArtlPVT0719/SONY_yay.m3u8
-
-#EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",Sony yay (airtle)3
 https://operator1.barfik.org/u4b3n324j7/7cj49wd783/156089
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp",Cartoon Network SD
@@ -968,7 +913,6 @@ https://madanitv.assadikb.workers.dev/live.php?id=816&e=.m3u8
 #KODIPROP:inputstream.adaptive.license_key=9452bb588219504397cc7dfc407356b5:1b3fc29b2616b147ebe119f2c6f9a02a
 https://login.bheem.tv/bpk-tv/22096/output/index.mpd?
 
-
 #EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp",Cartoon Network HD 1
 https://stream.ottplus.bd/live/cn_hd_abr/live/cn_hd/chunks.m3u8
 
@@ -995,9 +939,6 @@ https://yowaimo.in/SF-SS/117177.m3u8
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp",Cartoon Network HD (Tata play)2
 http://119.156.228.231:9983/stream/channelid/1331773591?ticket=92E81E5F91F5275AD29D5B44009AF978D35442D3&profile=pass
-
-#EXTINF:-1 group-title="Kid" tvg-logo="https://assets-prod.services.toffeelive.com/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp",Cartoon Network HD (airtle)
-https://yowaimo.in/Artl/live.php?watchid=CARTOON_NETWORK&userid=SFQZ4LO2
 
 #EXTINF:-1 tvg-id="22603" tvg-logo="https://dtil.tmsimg.com/assets/s143663_ld_h15_aa.png" group-title="Kid",Pogo
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1083,9 +1024,6 @@ https://livestream8.sunnxt.com/41b03d5d969e40fe9c8a221c67af6ab8/SunNeoHDB_AU_ind
 #EXTINF:-1 group-title="Kid" tvg-logo="https://sund-images.sunnxt.com/194389/150x150_SunNeoHD_194389_00f513c6-9032-400b-98c8-664e11a68e23.jpg", Sun Neo HD 2
 http://103.159.180.34:5001/live/3088.m3u8
 
-#EXTINF:-1 group-title="Kid" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWhbJwWaZe4Z8kKz22TLUb-7lbiU_VbL9MhZw8PW2jv7zDjxI57Dbjc1P8&s=10",Green Gold TV India
-https://vglivessai.akamaized.net/eu/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/675a37e5-f517-434e-adae-d25ae1706340/08fe4b6b-70b7-405c-ab1a-4a31cc7dd15f/4.m3u8
-
 #EXTINF:-1 tvg-id="326" tvg-chno="" tvg-name="green-gold-tv-india" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/green-gold-tv-india.png" group-title="Kid", Green Gold TV India
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -1154,10 +1092,6 @@ http://103.151.60.162:2122/play/a014/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max-hd.png" group-title="Movie",Sony MAX HD (Tata Play)
 http://66.102.126.10:8000/play/a071/index.m3u8
 
-#EXTINF:-1 tvg-id="1000009247" tvg-name="SONY MAX HD" group-title="Movie" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",SONY MAX HD (Sony LIV)
-#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247
-
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max-hd.png" group-title="Movie",Sony MAX HD (jio)2
 http://live.balajibroadband.com:3500/live/476.m3u8
 
@@ -1169,9 +1103,6 @@ https://madanitv.assadikb.workers.dev/live.php?id=476&e=.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247
 
-#EXTINF:-1 group-title="Movie" tvg-logo="https://assets-prod.services.toffeelive.com/Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp",Sony Max HD (Airtel)
-https://yowaimo.in/Artl/live.php?watchid=SONY_MAX_HD&userid=SFQZ4LO2
-
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max2.png" group-title="Movie",Sony MAX 2 (Toffee)1
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://book4u.top/worker/index.php?path=api/a5d2c9a383/playlist.m3u8
@@ -1182,10 +1113,6 @@ https://stream.ottplus.bd/live/max_2_abr/live/max_2_720/chunks.m3u8
 #EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a6/Sony-max-2-in.png/revision/latest?cb=20221026151354",Sony Max 2 (Airtel)
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=280780&extension=ts&play_token=fcGHHYKtJl
 
-#EXTINF:-1 tvg-id="1000009253" tvg-name="SONY WAH" group-title="Movie" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH (Sony LIV)
-#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253
-
 #EXTINF:-1 group-title="Movie" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-wah.png",Sony Wah (Jio)
 http://103.180.212.191:3500/live/1393.m3u8
 
@@ -1195,9 +1122,6 @@ http://live.balajibroadband.com:3500/live/1393.m3u8
 #EXTINF:-1 group-title="Movie" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-wah.png",Sony Wah (jio)3
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=1393&e=.m3u8
-
-#EXTINF:-1 group-title="Movie" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-wah.png",Sony Wah (Airtel)
-https://yowaimo.in/Artl/live.php?watchid=SONY_WAH&userid=SFQZ4LO2
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-cinema-hd-veqq3heoalzv.png" group-title="Movie",Zee Cinema HD (Toffee)1
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
@@ -1223,9 +1147,6 @@ http://103.151.60.162:2122/play/a012/index.m3u8?hls
 #EXTINF:-1 tvg-id="ZEE CINEMA HD" tvg-name="ZEE CINEMA HD" group-title="Movie" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/eqrpdx.png",ZEE CINEMA HD
 https://d1g8wgjurz8via.cloudfront.net//bpk-tv//Zeecinemahd/default//manifest.mpd
 
-#EXTINF:-1 group-title="Movie" tvg-logo="https://www.pngkey.com/png/full/532-5320038_zee-cinema.png",Zee cinema HD (airtle)
-https://yowaimo.in/Artl/live.php?watchid=ZEE_CINEMA_HD&userid=SFQZ4LO2
-
 #EXTINF:-1 tvg-id="0-9-176" group-title="Movie" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-176/list/1920x1080list18cba842de654a3cb92b33556dfa0bc2.png",Zee Classic (ZEE)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-176&u=Stream-star
@@ -1243,9 +1164,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bollywood.jpg" group-title="Movie",Zee Bollywood
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://book4u.top/worker/index.php?path=api/3547925ef0/playlist.m3u8
-
-#EXTINF:-1 group-title="Movie" tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bollywood.jpg",Zee bollywood (airtle)
-https://yowaimo.in/Artl/live.php?watchid=ZEE_BOLLYWOOD&userid=SFQZ4LO2
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-action.png" group-title="Movie",Zee Action (Zee)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
@@ -1344,9 +1262,6 @@ http://103.151.60.162:2122/play/a01n/index.m3u8?hls
 #EXTINF:-1 group-title="Movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_k_SvNlR-VDa6V-F1bEgkNGKdcVxz1KIKBNHeG_STg&s=10",Star gold HD (Tata play)1
 http://202.70.146.135:8000/play/a02a/index.m3u8
 
-#EXTINF:-1 group-title="Movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_k_SvNlR-VDa6V-F1bEgkNGKdcVxz1KIKBNHeG_STg&s=10",Star gold HD (Tata play)2
-https://yowaimo.in/Artl/live.php?watchid=STAR_GOLD_HD&userid=SFQZ4LO2
-
 #EXTINF:-1 group-title="Movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO_k_SvNlR-VDa6V-F1bEgkNGKdcVxz1KIKBNHeG_STg&s=10",Star gold HD (Tata play)3
 http://66.102.126.10:8000/play/a00f/index.m3u8
 
@@ -1364,12 +1279,6 @@ https://yowaimo.in/Sflex-ArtlPVT0719/STAR_GOLD_2_HD.m3u8
 
 #EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a1/Star_Gold_2_HD_2020.svg/revision/latest/scale-to-width-down/250?cb=20211215235613",Star gold 2 HD  (Tata play)3
 http://202.70.146.135:8000/play/a04q/index.m3u8
-
-#EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a1/Star_Gold_2_HD_2020.svg/revision/latest/scale-to-width-down/250?cb=20211215235613",Star gold 2 HD  (airtle)1
-https://yowaimo.in/Artl/live.php?watchid=STAR_GOLD_2_HD&userid=SFQZ4LO2
-
-#EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a1/Star_Gold_2_HD_2020.svg/revision/latest/scale-to-width-down/250?cb=20211215235613",Star gold 2 HD  (airtle)2
-https://yowaimo.in/Sflex-ArtlPVT0719/STAR_GOLD_2_HD.m3u8
 
 #EXTINF:-1 group-title="Movie" tvg-logo="https://yt3.googleusercontent.com/kqp2MvB4D-XcnPEAJ3wtbItKUBpKTmOwg46W-4RqubmMBf4okYuyCY7ODbOC0w1g5dH8H1a1Ug=s900-c-k-c0x00ffffff-no-rj",Star Gold Romance (Tata play)1
 http://66.102.126.10:8000/play/a00r/index.m3u8
@@ -1525,9 +1434,6 @@ http://103.151.61.12/Jalsha_Movie/video.m3u8?token=i7bZaZWaFrSIE0
 
 #EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie", Star JALSHA MOVIES (Sun)
 http://103.151.60.162:2122/play/a00x/index.m3u8?hls
-
-#EXTINF:-1 group-title="Bangla Movie" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD
-http://103.151.61.12/Jalsha_Movie/video.m3u8?token=i7bZaZWaFrSIE0
 
 #EXTINF:-1 group-title="Bangla Movie" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD
 http://180.94.28.28:8097//JALSHA-MOVIES/index.fmp4.m3u8
@@ -1907,9 +1813,6 @@ http://103.151.60.162:2122/play/a01d/index.m3u8?hls
 #EXTINF:-1 group-title="English Movies" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Tata Play)
 http://66.102.126.10:8000/play/a01z/index.m3u8
 
-#EXTINF:-1 tvg-id="1000009258" tvg-name="SONY PIX HD" group-title="English Movies" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",SONY PIX HD (Sony LIV)
-https://ranapkvoot.site/SLIV/FUCK/rolex.php?id=2011748-b/PIXHD/master.m3u8?hdnea=exp=1785545422~acl=/*~id=50a7d83d55651018c016ccf00a3a2d57-1785502202672~hmac=38a75a5dcf93c6d6fcc9f9a5f1a33b72cb8b79ccce7c342c9b18ca592d620438|User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com
-
 #EXTINF:-1 group-title="English Movies" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Jio)2
 http://live.balajibroadband.com:3500/live/762.m3u8
 
@@ -1917,8 +1820,6 @@ http://live.balajibroadband.com:3500/live/762.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=762&e=.m3u8
 
-#EXTINF:-1 group-title="English Movies" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Airtel)
-https://yowaimo.in/Artl/live.php?watchid=SONY_PIX_HD&userid=SFQZ4LO2
 
 
 
@@ -2133,8 +2034,6 @@ http://103.114.11.37:8081/Nat-Geo-Wild/index.m3u8?token=dsgdfgsdfgasf
 
 
 
-
-
 #EXTINF:-1 group-title="Toffee" tvg-logo="http://alixbd.com/assets/images/hum.png", HUM TV
 https://stream.ottplus.bd/live/hum_tv_abr/index.m3u8
 
@@ -2187,6 +2086,68 @@ https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp" group-title="Toffee",Pogo
 https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Sony LIV" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD 
+#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248
+
+#EXTINF:-1 tvg-id="1000009273" tvg-name="SONY PAL" group-title="Sony LIV" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL 
+#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273
+
+#EXTINF:-1 tvg-id="1000001971" tvg-name="SONY YAY" group-title="Sony LIV" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",SONY YAY 
+#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971
+
+#EXTINF:-1 tvg-id="1000009247" tvg-name="SONY MAX HD" group-title="Sony LIV" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",SONY MAX HD 
+#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247
+
+#EXTINF:-1 tvg-id="1000009253" tvg-name="SONY WAH" group-title="Sony LIV" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH 
+#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253
+
+
+
+
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://assets-prod.services.toffeelive.com/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp",Sony HD 
+https://ranapkz.site/TVD/NEW/play.php?id=943926
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://assets-prod.services.toffeelive.com/Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp",Sony Max HD
+https://ranapkz.site/TVD/NEW/play.php?id=373074
+
+#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-max2.png" group-title="Sony",Sony MAX 2 
+https://ranapkz.site/TVD/NEW/play.php?id=373073
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD
+https://ranapkz.site/TVD/NEW/play.php?id=943971
+
+#EXTINF:-1 tvg-id="1000009252" tvg-name="BBC EARTH" group-title="Sony" tvg-language="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png",SONY BBC EARTH HD
+https://ranapkz.site/TVD/NEW/play.php?id=373071
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",Sony Sab HD 
+https://ranapkz.site/TVD/NEW/play.php?id=944604
+
+#EXTINF:-1 tvg-id="1000009255" tvg-name="SONY AATH" group-title="Sony" tvg-language="Bengali" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_aath.png",SONY AATH
+https://ranapkz.site/TVD/NEW/play.php?id=373435
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-wah.png",Sony Wah
+https://ranapkz.site/TVD/NEW/play.php?id=944607
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://otapp.store/uploads/tv_image/sm/sony-pal.png",Sony Pal
+https://ranapkz.site/TVD/NEW/play.php?id=373069
+
+#EXTINF:-1 group-title="Sony" tvg-logo="https://assets-prod.services.toffeelive.com/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",Sony yay
+https://ranapkz.site/TVD/NEW/play.php?id=373067
+
+
 
 
 
