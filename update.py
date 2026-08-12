@@ -16,7 +16,7 @@ playlists_to_add = [
     },
     {
         "group_name": "Toffee BD",
-        "url": "http://140.245.107.220:5001/channels?url=https://playlist-cricfy.noobon.top/toffee.php"
+        "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
     },
     {
         "group_name": "AKASH",
@@ -25,6 +25,18 @@ playlists_to_add = [
     {
         "group_name": "BDIX TV",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"
+    },
+    {
+        "group_name": "RoarZone",
+        "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"
+    },
+    {
+        "group_name": "BDIX",
+        "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"
+    },
+    {
+        "group_name": "AlixBD",
+        "url": "http://alixbd.com/2022.m3u"
     }
 ]
 
@@ -43,7 +55,7 @@ for item in playlists_to_add:
         continue
 
     try:
-        response = requests.get(url, headers=headers, timeout=20)
+        response = requests.get(url, headers=headers, timeout=25)
         if response.status_code == 200:
             playlist_text = response.text
         else:
@@ -79,4 +91,4 @@ final_content = f"{my_playlist}\n\n{external_content}"
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("All playlists (Sony, Toffee, AKASH, BDIX) updated successfully!")
+print("All 7 Playlists updated successfully!")
