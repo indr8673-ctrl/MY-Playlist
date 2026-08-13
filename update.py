@@ -75,6 +75,11 @@ playlists_to_add = [
         "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"
     },
     {
+        "group_name": "Ayna TV",
+        "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg",
+        "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-Playlists-free-Version/refs/heads/main/playlist.m3u"
+    },
+    {
         "group_name": "RoarZone",
         "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"
