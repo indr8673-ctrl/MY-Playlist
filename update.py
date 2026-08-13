@@ -22,27 +22,27 @@ playlists_to_add = [
     },
     {
         "group_name": "AKASH",
-        "group_logo": "https://play-lh.googleusercontent.com/uH9MF_XcFR3-my7Z2o9w69j_glfMasPgks94-d3F610zWq8_FIgbYvr-FP1LSmpl_xmebuhoJHiMEytxEq86g",
+        "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15",
         "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"
     },
     {
         "group_name": "BDIX TV",
-        "group_logo": "https://play-lh.googleusercontent.com/ZhYHS7gw0U3RZHv6Gz48wK1DhC7GyXiyrIPZj1lDkbVn7OpqsQgocwrjEz1KGHUOpA",
+        "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"
     },
     {
         "group_name": "RoarZone",
-        "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxi69-tRSPLQhCnKqySLe-Gw_0C9CN6IFTMHtSyIKgzyOuqhzs1BSyA&s=10",
+        "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"
     },
     {
         "group_name": "BDIX",
-        "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8glauz9GgWYPJC4N4_aW6kmdU-PF44jXRTI0vpGxd23i27VHCdFRMs=10",
+        "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png",
         "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasanSa_246&password=1m43mozx&type=m3u_plus"
     },
     {
         "group_name": "AlixBD",
-        "group_logo": "https://i.ibb.co/3kM0X8f/AlixBD-tv.png",
+        "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg",
         "url": "http://alixbd.com/2022.m3u"
     }
 ]
