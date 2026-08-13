@@ -12,12 +12,12 @@ except Exception as e:
 playlists_to_add = [
     {
         "group_name": "Sony BD",
-        "group_logo": "https://play-lh.googleusercontent.com/vU5p3Q8-B-Y3-H6-m0gE4g4jE9x1s_X-L2Z5z9k8=",
+        "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg",
         "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"
     },
     {
         "group_name": "Toffee BD",
-        "group_logo": "https://play-lh.googleusercontent.com/1O7yPkWK8E3n4b1_x0x8w8E8g1Z3X8u9z=",
+        "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
     },
     {
@@ -53,7 +53,7 @@ headers = {
 
 all_external_channels = []
 
-# ৩. প্রতিটি লিংক থেকে চ্যানেল এনে নির্দিষ্ট গ্রুপের নাম ও লোগো সেট করা
+# ৩. প্রতিটি লিংক থেকে চ্যানেল এনে নির্দিষ্ট গ্রুপের নাম ও ক্যাটাগরি লোগো সেট করা
 for item in playlists_to_add:
     group_name = item["group_name"]
     group_logo = item.get("group_logo", "")
@@ -82,18 +82,16 @@ for item in playlists_to_add:
             line_str = re.sub(r'group-title="[^"]*"', '', line_str)
             line_str = re.sub(r'tvg-group="[^"]*"', '', line_str)
             line_str = re.sub(r'group-title=\S+', '', line_str)
+            line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
 
-            # যদি চ্যানেলে লোগো না থাকে এবং গ্রুপের লোগো থাকে, তবে লোগো সেট করা
-            if 'tvg-logo="' not in line_str and group_logo:
-                line_str = line_str.replace('#EXTINF:-1', f'#EXTINF:-1 tvg-logo="{group_logo}"')
-                line_str = line_str.replace('#EXTINF:0', f'#EXTINF:0 tvg-logo="{group_logo}"')
-
-            # নতুন নির্দিষ্ট গ্রুপ নেম সেট করা
+            # ক্যাটাগরি বা গ্রুপের লোগো (group-logo) এবং গ্রুপ নেম ডাইরেক্ট বসিয়ে দেওয়া
+            logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
+            
             if ',' in line_str:
                 parts = line_str.split(',', 1)
-                line_str = f'{parts[0].strip()} group-title="{group_name}",{parts[1]}'
+                line_str = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
             else:
-                line_str = f'{line_str} group-title="{group_name}"'
+                line_str = f'{line_str} group-title="{group_name}"{logo_attr}'
 
         all_external_channels.append(line_str)
 
@@ -104,4 +102,4 @@ final_content = f"{my_playlist}\n\n{external_content}"
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("All 7 Playlists updated successfully!")
+print("All 7 Playlists updated with Group Logos successfully!")
