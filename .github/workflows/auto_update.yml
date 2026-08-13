@@ -33,9 +33,3 @@ jobs:
           git add playlist.m3u
           git commit -m "Auto-updated playlist with fresh tokens" || exit 0
           git push
-
-      - name: Upload to Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: v1.0
-          files: playlist.m3u
