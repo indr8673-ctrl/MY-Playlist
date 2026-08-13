@@ -10,12 +10,20 @@ except Exception as e:
 
 # ২. নিজস্ব নোটপ্যাড ক্যাটাগরি লোগো
 my_category_logos = {
-    "Kid": "https://play-lh.googleusercontent.com/1O7yPkWK8E3n4b1_x0x8w8E8g1Z3X8u9z=",
-    "Entertainment": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8glauz9GgWYPJC4N4_aW6kmdU-PF44jXRTI0vpGxd23i27VHCdFRMs=10",
-    "Movie": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxi69-tRSPLQhCnKqySLe-Gw_0C9CN6IFTMHtSyIKgzyOuqhzs1BSyA&s=10",
-    "Sun": "https://play-lh.googleusercontent.com/uH9MF_XcFR3-my7Z2o9w69j_glfMasPgks94-d3F610zWq8_FIgbYvr-FP1LSmpl_xmebuhoJHiMEytxEq86g",
-    "Bangla Movie": "https://play-lh.googleusercontent.com/ZhYHS7gw0U3RZHv6Gz48wK1DhC7GyXiyrIPZj1lDkbVn7OpqsQgocwrjEz1KGHUOpA",
-    "BD News": "https://play-lh.googleusercontent.com/vU5p3Q8-B-Y3-H6-m0gE4g4jE9x1s_X-L2Z5z9k8="
+    "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
+    "Entertainment": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",
+    "Movie": "https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",
+    "Sun": "https://e7.pngegg.com/pngimages/341/140/png-clipart-logo-brand-product-design-sun-direct-direct-sunlight-television-text.png",
+    "Bangla Movie": "https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg",
+    "BD News": "https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj",
+    "Sony": "https://www.medianews4u.com/wp-content/uploads/2017/08/sony-liv-logo-1-3-2.jpg",
+    "Sony LIV": "https://static.vecteezy.com/system/resources/previews/075/195/417/non_2x/sony-liv-logo-rounded-glossy-icon-with-transparent-background-free-png.png",
+    "World": "https://www.shutterstock.com/image-vector/world-television-logo-template-design-260nw-1403727485.jpg",
+    "English Movies": "https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",
+    "Sports": "https://img.magnific.com/premium-vector/professional-tv-channel-logo-design-concept-vector-illustration_875240-1836.jpg?semt=ais_test_b&w=740&q=80",
+    "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
+    "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
+    "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
 }
 
 processed_my_playlist = []
