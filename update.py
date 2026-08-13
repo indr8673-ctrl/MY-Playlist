@@ -12,30 +12,37 @@ except Exception as e:
 playlists_to_add = [
     {
         "group_name": "Sony BD",
+        "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg",
         "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"
     },
     {
         "group_name": "Toffee BD",
+        "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
     },
     {
         "group_name": "AKASH",
+        "group_logo": "https://play-lh.googleusercontent.com/mH9Mf_KcFRJ-my7Z2o9w69j_glfMasPgks94-d3fGlO2wNqB_FIgbYvrfPlLSmpL_xmebuhoJHiMEytxMEq86g",
         "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"
     },
     {
         "group_name": "BDIX TV",
+        "group_logo": "https://play-lh.googleusercontent.com/ZhYHS7gmXM3RZNv6Gz48wKlKhC7GyXiyrIPZjl1DkbVn70pqsQgoowujEz1KGHUopA",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"
     },
     {
         "group_name": "RoarZone",
+        "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxi69-tRSPL0QhCmSkqySLe-Gw_0C9CM6IFTMHt5yIKgzyDwqhzs1BSyA&s=10",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"
     },
     {
         "group_name": "BDIX",
+        "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8g1auz9g6yWMjC4N4_aMmWwmdU-PF44jMVXRTQ0vp6xXd23iZ7YHCdFRM&s=10",
         "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"
     },
     {
         "group_name": "AlixBD",
+        "group_logo": "",
         "url": "http://alixbd.com/2022.m3u"
     }
 ]
