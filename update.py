@@ -42,7 +42,7 @@ playlists_to_add = [
     },
     {
         "group_name": "AlixBD",
-        "group_logo": "",
+        "group_logo": "https://drive.google.com/file/d/1Jq7dm4bUeOUB7YI67Tr5T38KTTnDw1VQ/view?usp=drive_link",
         "url": "http://alixbd.com/2022.m3u"
     }
 ]
