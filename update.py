@@ -92,7 +92,7 @@ playlists_to_add = [
     {
         "group_name": "BDIX",
         "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png",
-        "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasanSa_246&password=1m43mozx&type=m3u_plus"
+        "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"
     },
     {
         "group_name": "AlixBD",
