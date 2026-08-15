@@ -60,6 +60,11 @@ playlists_to_add = [
         "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"
     },
     {
+        "group_name": "Sony BD 2",
+        "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg",
+        "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"
+    },
+    {
         "group_name": "Toffee BD",
         "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
@@ -77,22 +82,12 @@ playlists_to_add = [
     {
         "group_name": "Ayna TV",
         "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg",
-        "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-Playlists-free-Version/refs/heads/main/playlist.m3u"
+        "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u"
     },
     {
         "group_name": "RoarZone",
         "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png",
         "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"
-    },
-     {
-        "group_name": "Voot",
-        "group_logo": "https://play-lh.googleusercontent.com/InSOp5thAKQxms_ZZfRVjefSQFX2_WDTR1B03C3zcmxftJUkOWC2c__ciwfFLwxT2G6aRQmjfMV28-tnV6dE0w=w480-h960-rw",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/vood.m3u"
-    },
-    {
-        "group_name": "Jio Hotstar",
-        "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKe_1KwcBrLdVeWT8maozq2ukwcGBXFpxmlnTShnSCErmv5oAXbHVxqaW4&s=10",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u"
     },
     {
         "group_name": "BDIX",
