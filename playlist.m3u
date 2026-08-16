@@ -9,7 +9,7 @@ https://s1.itcnbd.live/somoy/index.m3u8
 #EXTINF:-1 group-title="BD News" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" tvg-logo="https://i.ytimg.com/vi/MEFRrtRaqlc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGH8gJCglMA8=&rs=AOn4CLD_kZG6nLwYlKE3OmJRlKxP95N5Bg",Somoy TV 1
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
-#EXTINF:-1 group-title="BD News" tvg-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" tvg-logo="",BTV News
+#EXTINF:-1 group-title="BD News" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" tvg-logo="",BTV News
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="btv_ctg" tvg-name="BTV CTG" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/b994ae24dd627fb8b680e5cd654d1e9c.jpg" group-title="BD News" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj",BTV CTG
@@ -369,7 +369,7 @@ http://202.70.146.135:8000/play/a009/index.m3u8
 #EXTINF:-1 group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/logos/channel/logos/akegkk.png",Star Plus HD (Tata play)4
 http://66.102.126.10:8000/play/a008/index.m3u8
 
-#EXTINF:-1  group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" ,Sony KAL
+#EXTINF:-1  group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" ,Sony KAL
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
 
 #EXTINF:-1  group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" tvg-logo="https://assets-prod.services.toffeelive.com/ES55-JQBv9knK3AHNDWC/posters/13411be9-62b9-4a99-a062-b6e91dfb1099.webp",Sony Sab SD (Tata play)1
@@ -518,20 +518,20 @@ https://login.bheem.tv/bpk-tv/22431/output/index.mpd?
 #EXTINF:-1 tvg-id="22431" tvg-logo="https://dtil.tmsimg.com/assets/s143778_ld_h15_aa.png?lock=720x540" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo TV (jio)
 http://103.180.212.191:3500/live/1961.m3u8
 
-#EXTINF:-1 tvg-id="258" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang
+#EXTINF:-1 tvg-id="258" tvg-logo="" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/258/master.m3u8
 
-#EXTINF:-1 tvg-id="258" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang (jio)
+#EXTINF:-1 tvg-id="258" tvg-logo="" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang (jio)
 http://103.180.212.191:3500/live/2078.m3u8
 
 #EXTINF:-1 tvg-id="" group-logo="https://www.dangalplay.com/assets/logos/logo_dP.png" tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal_16x9.jpg" group-title="Entertainment" group-logo="https://www.dangalplay.com/assets/logos/logo_dP.png",Dangal
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8
 
-#EXTINF:-1 tvg-id="17" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal
+#EXTINF:-1 tvg-id="17" tvg-logo="" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -541,14 +541,14 @@ http://103.175.73.12:8080/live/17/17_0.m3u8
 #EXTINF:-1 tvg-id="" group-logo="https://www.dangalplay.com/assets/logos/logo_dP.png" tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal2_16x9.jpg" group-title="Entertainment" group-logo="https://www.dangalplay.com/assets/logos/logo_dP.png",Dangal 2
 https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 
-#EXTINF:-1 tvg-id="18" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal 2
+#EXTINF:-1 tvg-id="18" tvg-logo="" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/18/18_0.m3u8
 
-#EXTINF:-1 tvg-id="19" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Manoranjan Grand
+#EXTINF:-1 tvg-id="19" tvg-logo="" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Manoranjan Grand
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1144,7 +1144,7 @@ https://book4u.top/worker/index.php?path=api/33d888b898/playlist.m3u8
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/43/43_0.m3u8
 
-#EXTINF:-1 tvg-id="44" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",B4U Kadak
+#EXTINF:-1 tvg-id="44" tvg-logo="" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",B4U Kadak
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1264,21 +1264,21 @@ https://cdn-2.pishow.tv/live/1461/master.m3u8
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/51/51_0.m3u8
 
-#EXTINF:-1 tvg-id="52" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines Bollywood
+#EXTINF:-1 tvg-id="52" tvg-logo="" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines Bollywood
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/52/52_0.m3u8
 
-#EXTINF:-1 tvg-id="46" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines 2
+#EXTINF:-1 tvg-id="46" tvg-logo="" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/46/46_0.m3u8
 
-#EXTINF:-1 tvg-id="47" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Manoranjan Movies
+#EXTINF:-1 tvg-id="47" tvg-logo="" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Manoranjan Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1289,7 +1289,7 @@ http://103.175.73.12:8080/live/47/47_0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://m3u.cloudplay.qzz.io/z5/0-9-bigmagic_1786965389.m3u8
 
-#EXTINF:-1 tvg-id="13" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Big Magic
+#EXTINF:-1 tvg-id="13" tvg-logo="" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Big Magic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1538,10 +1538,10 @@ https://madanitv.assadikb.workers.dev/live.php?id=740&e=.m3u8
 #EXTINF:-1 tvg-id="sangeet_bangla" tvg-logo="http://ottking.top/cdn/image/Sangeet-Bangla.png" group-title="Music" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",Sangeet Bangla 1
 https://s1.itcnbd.live/SangeetBangla/index.m3u8
 
-#EXTINF:-1 group-title="Music" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U MUSIC
+#EXTINF:-1 group-title="Music" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U MUSIC
 http://66.102.126.10:8000/play/a01e/index.m3u8
 
-#EXTINF:-1 tvg-id="157" tvg-logo="" group-title="Music" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U Music
+#EXTINF:-1 tvg-id="157" tvg-logo="" group-title="Music" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U Music
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1555,7 +1555,7 @@ http://103.175.73.12:8080/live/157/master.m3u8
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/158/master.m3u8
 
-#EXTINF:-1 tvg-id="159" tvg-logo="" group-title="Music" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",E 24
+#EXTINF:-1 tvg-id="159" tvg-logo="" group-title="Music" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",E 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1663,34 +1663,34 @@ https://m3u.cloudplay.qzz.io/z5/0-9-zeekalinganews.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-209&u=Stream-star
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",&flix
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",&flix
 http://103.151.60.162:2122/play/a01m/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",HBO HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",HBO HD
 http://103.151.60.162:2122/play/a00q/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Movies Now
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Movies Now
 http://180.94.28.28:8097//MOVIES-NOW/index.fmp4.m3u8?token=8827e074d26958c8c9daa9a832390e68a169cd09-601dde3eea52847bbdd05b326099c905-1776169973-1776166373&remote=no_check_ip
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", MNX HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", MNX HD
 http://202.70.146.135:8000/play/a052/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", MNX HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", MNX HD
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=156021&extension=ts&play_token=1VEMLWzpQI
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",MN PLUS HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",MN PLUS HD
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=156025&extension=ts&play_token=xch25rRNAZ
 
-#EXTINF:-1 group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",LotusTV
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",LotusTV
 http://66.102.126.10:8000/play/a03b/index.m3u8
 
-#EXTINF:-1 group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",iFilm English
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",iFilm English
 http://66.102.126.10:8000/play/a06n/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",HITS MOVIES
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",HITS MOVIES
 http://103.151.60.162:2122/play/a01h/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Hits
+#EXTINF:-1 tvg-logo="" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Hits
 http://103.151.60.162:2122/play/a02g/index.m3u8?hls
 
 #EXTINF:-1 tvg-id="star_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES HD1745040174.png" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",STAR MOVIES HD (Tata play)1
@@ -2604,108 +2604,6 @@ https://bldcmprod-cdn.toffeelive.com/cdn/live/discovary_investigation_hd/playlis
 #EXTVLCOPT:http-user-agent=okhttp/5.1.0
 #EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1787076015:KeyName=prod_linear:Signature=jZajMEin5KHRDylXLlj6T2YILIiTf-KI3T6SRDTJK4t3r2gLF1NheaD3VxevszobAsNoN8t3_ifepZRL85CvAg"}
 https://bldcmprod-cdn.toffeelive.com/cdn/live/andpicture_hd/playlist.m3u8
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 01" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 01
-https://pixeldrain.net/api/file/YY5395b9?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 02" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 02
-https://pixeldrain.net/api/file/L6bm8GBF?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 03" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 03
-https://pixeldrain.net/api/file/7UvAE8PV?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 04" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 04
-https://pixeldrain.net/api/file/nvbW834J?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 05" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 05
-https://pixeldrain.net/api/file/bkU5Bk3k?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 06" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 06
-https://pixeldrain.net/api/file/FPLkSyxE?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 07" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 07
-https://pixeldrain.net/api/file/DrToFjxd?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 08" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 08
-https://pixeldrain.net/api/file/NHjZUyNB?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 09" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 09
-https://pixeldrain.net/api/file/8aF78jM5?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 10" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 10
-https://pixeldrain.net/api/file/izbaGkUX?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 11" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 11
-https://pixeldrain.net/api/file/uWaa8DE3?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 12" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 12
-https://pixeldrain.net/api/file/L2QnVigW?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 13" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 13
-https://pixeldrain.net/api/file/UHqPwDxo?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 14" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 14
-https://pixeldrain.net/api/file/ZQGnT8WF?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 15" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 15
-https://pixeldrain.net/api/file/B9iearx6?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 16" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 16
-https://pixeldrain.net/api/file/Whm7EZYV?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 17" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 17
-https://pixeldrain.net/api/file/rbf4Dtvr?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 18" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 18
-https://pixeldrain.net/api/file/BYETyCmV?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 19" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 19
-https://pixeldrain.net/api/file/XPv2Ehw9?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 20" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 20
-https://pixeldrain.net/api/file/z3ZCtAAr?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 21" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 21
-https://pixeldrain.net/api/file/rXHafNE6?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 22" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 22
-https://pixeldrain.net/api/file/Wvf5vjQ3?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 23" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 23
-https://pixeldrain.net/api/file/4hSCdL5C?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 24" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 24
-https://pixeldrain.net/api/file/vNxTmdmw?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 25" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 25
-https://pixeldrain.net/api/file/mLuwFB24?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 26" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 26
-https://pixeldrain.net/api/file/2Mnsz5nH?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 27" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 27
-https://pixeldrain.net/api/file/yeGTGW27?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 28" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 28
-https://pixeldrain.net/api/file/xcSFQ1pc?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 29" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 29
-https://pixeldrain.net/api/file/jMNioPw1?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 30" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 30
-https://pixeldrain.net/api/file/hse5oYha?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie"tvg-name="Episode 31" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 31
-https://pixeldrain.net/api/file/7Yt8NXKU?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 32" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 32
-https://pixeldrain.net/api/file/njA2ef8d?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 33" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 33
-https://pixeldrain.net/api/file/v2QYBNDK?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 34" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 34
-https://pixeldrain.net/api/file/8xmigbT5?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 35" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 35
-https://pixeldrain.net/api/file/BBkrKSW7?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 36" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 36
-https://pixeldrain.net/api/file/eSF3Xem6?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 37" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 37
-https://pixeldrain.net/api/file/urosU58U?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 38" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 38
-https://pixeldrain.net/api/file/EJpTk2JE?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 39" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 39
-https://pixeldrain.net/api/file/EkScVmLJ?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 40" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 40
-https://pixeldrain.net/api/file/fbpmLtqj?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 41" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 41
-https://pixeldrain.net/api/file/aNFcias4?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 42" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 42
-https://pixeldrain.net/api/file/SQYMMn3B?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 43" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 43
-https://pixeldrain.net/api/file/bPRcY1TR?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 44" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 44
-https://pixeldrain.net/api/file/FbyprkjK?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 45" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 45
-https://pixeldrain.net/api/file/antsogLt?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 46" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 46
-https://pixeldrain.net/api/file/ehG7NtKd?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 47" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 47
-https://pixeldrain.net/api/file/v7swdvzQ?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 48" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 48
-https://pixeldrain.net/api/file/cDw9X5fP?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 49" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 49
-https://pixeldrain.net/api/file/BKXZxBDF?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 50" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 50
-https://pixeldrain.net/api/file/GybW9kfJ?download
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 50" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 51
-https://pixeldrain.net/api/file/pRdmdGEh?download
 #PLAYLIST:Akash Go Live TV
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
