@@ -80,6 +80,11 @@ playlists_to_add = [
         "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
     },
     {
+        "group_name": "Doraemon Season 21",
+        "group_logo": "https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
+        "url": "https://raw.githubusercontent.com/indr8673-ctrl/MY-Playlist/refs/heads/main/doraemon.m3u"
+    },
+    {
         "group_name": "AKASH",
         "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15",
         "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"
