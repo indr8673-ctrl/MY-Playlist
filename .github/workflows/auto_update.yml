@@ -23,15 +23,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run Update Scripts
-        run: |
-          python update.py || echo "update.py had issues"
-          python ben_10_alien_force.py || echo "ben_10_alien_force.py had issues"
+      - name: Run update script
+        run: python update.py
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add playlist.m3u
-          git commit -m "Auto-updated playlist with Ben 10" || exit 0
-          git push origin main || git push
+          git commit -m "Auto-updated playlist with fresh tokens" || exit 0
+          git push
