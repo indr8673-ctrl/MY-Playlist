@@ -1,7 +1,7 @@
 import re
 import requests
 
-# ১. আপনার tv.m3u ফাইল পড়া (যার ভেতরে টিভি চ্যানেল + বেন টেনের সব এপিসোড একসাথে যুক্ত আছে)
+# ১. আপনার tv.m3u ফাইল পড়া (টিভি চ্যানেল + বেন টেন + ডোরেমন সিজন ২১ সহ)
 try:
     with open('tv.m3u', 'r', encoding='utf-8') as f:
         my_playlist = f.read().strip()
@@ -10,7 +10,7 @@ except Exception as e:
     my_playlist = "#EXTM3U"
 
 # ==========================================================
-# আপনার tv.m3u ফাইলের ক্যাটাগরিগুলোর লোগো (বেন টেন সহ)
+# আপনার tv.m3u ফাইলের ক্যাটাগরিগুলোর লোগো (নতুন Doraemon Season 21 সহ)
 # ==========================================================
 my_category_logos = {
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
@@ -28,10 +28,12 @@ my_category_logos = {
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
     "Ben 10: Alien Force [Hindi]": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
-    "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10"
+    "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
+    "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
+    "Doraemon": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg"
 }
 
-# ২. আপনার tv.m3u ফাইলের ক্যাটাগরিতে (টিভি চ্যানেল ও বেন টেন কার্টুন) অটোমেটিক লোগো বসানো
+# ২. tv.m3u ফাইলের চ্যানেল ও সব কার্টুনে (বেন টেন + ডোরেমন) অটোমেটিক লোগো বসানো
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
@@ -145,7 +147,7 @@ for item in playlists_to_add:
 
         all_external_channels.append(line_str)
 
-# ৪. ফাইল সেভ করা (tv.m3u-এর মূল চ্যানেল + বেন টেন + বাইরের লাইভ টিভি)
+# ৪. ফাইল সেভ করা
 external_content = "\n".join(all_external_channels)
 if external_content:
     final_content = f"{my_playlist_updated}\n\n{external_content}"
@@ -155,4 +157,4 @@ else:
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("All Playlists, Channels, and Ben 10 Episodes updated successfully!")
+print("Playlist updated with Doraemon, Ben 10, Live TV, and external links successfully!")
