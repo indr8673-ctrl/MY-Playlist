@@ -9,7 +9,7 @@ https://s1.itcnbd.live/somoy/index.m3u8
 #EXTINF:-1 group-title="BD News" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" tvg-logo="https://i.ytimg.com/vi/MEFRrtRaqlc/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AHUBoAC4AOKAgwIABABGH8gJCglMA8=&rs=AOn4CLD_kZG6nLwYlKE3OmJRlKxP95N5Bg",Somoy TV 1
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 
-#EXTINF:-1 group-title="BD News" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" tvg-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj",BTV News
+#EXTINF:-1 group-title="BD News" tvg-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj" tvg-logo="",BTV News
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/index.m3u8
 
 #EXTINF:-1 tvg-id="btv_ctg" tvg-name="BTV CTG" tvg-logo="https://web.aynaott.com/storage/019dd92f-107c-7056-9e79-e5233f6e51d9/uploads/images/2026-06-24/b994ae24dd627fb8b680e5cd654d1e9c.jpg" group-title="BD News" group-logo="https://yt3.googleusercontent.com/AQLUH_ixhkqBRCV9M1rtWRQhUFiXB1QvX-l1DIbrfmeMjrU8kJzAeCaiupHjEPEz9M2daSfm9A=s900-c-k-c0x00ffffff-no-rj",BTV CTG
@@ -518,20 +518,20 @@ https://login.bheem.tv/bpk-tv/22431/output/index.mpd?
 #EXTINF:-1 tvg-id="22431" tvg-logo="https://dtil.tmsimg.com/assets/s143778_ld_h15_aa.png?lock=720x540" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo TV (jio)
 http://103.180.212.191:3500/live/1961.m3u8
 
-#EXTINF:-1 tvg-id="258" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang
+#EXTINF:-1 tvg-id="258" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/258/master.m3u8
 
-#EXTINF:-1 tvg-id="258" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang (jio)
+#EXTINF:-1 tvg-id="258" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Shemaroo Umang (jio)
 http://103.180.212.191:3500/live/2078.m3u8
 
 #EXTINF:-1 tvg-id=""  tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal_16x9.jpg" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" ,Dangal
 https://live-dangal.akamaized.net/liveabr/playlist.m3u8
 
-#EXTINF:-1 tvg-id="17" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal
+#EXTINF:-1 tvg-id="17" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -541,14 +541,14 @@ http://103.175.73.12:8080/live/17/17_0.m3u8
 #EXTINF:-1 tvg-id=""  tvg-logo="https://dangaplay-json.s3.ap-south-1.amazonaws.com/Dangal2_16x9.jpg" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" ,Dangal 2
 https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
 
-#EXTINF:-1 tvg-id="18" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal 2
+#EXTINF:-1 tvg-id="18" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Dangal 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/18/18_0.m3u8
 
-#EXTINF:-1 tvg-id="19" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-title="Entertainment" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Manoranjan Grand
+#EXTINF:-1 tvg-id="19" tvg-logo="" group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",Manoranjan Grand
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1144,7 +1144,7 @@ https://book4u.top/worker/index.php?path=api/33d888b898/playlist.m3u8
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/43/43_0.m3u8
 
-#EXTINF:-1 tvg-id="44" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",B4U Kadak
+#EXTINF:-1 tvg-id="44" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",B4U Kadak
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1264,21 +1264,21 @@ https://cdn-2.pishow.tv/live/1461/master.m3u8
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/51/51_0.m3u8
 
-#EXTINF:-1 tvg-id="52" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines Bollywood
+#EXTINF:-1 tvg-id="52" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines Bollywood
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/52/52_0.m3u8
 
-#EXTINF:-1 tvg-id="46" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines 2
+#EXTINF:-1 tvg-id="46" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Goldmines 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/46/46_0.m3u8
 
-#EXTINF:-1 tvg-id="47" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Manoranjan Movies
+#EXTINF:-1 tvg-id="47" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Manoranjan Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1289,7 +1289,7 @@ http://103.175.73.12:8080/live/47/47_0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://m3u.cloudplay.qzz.io/z5/0-9-bigmagic_1786965389.m3u8
 
-#EXTINF:-1 tvg-id="13" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-title="Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Big Magic
+#EXTINF:-1 tvg-id="13" tvg-logo="" group-title="Movie" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Big Magic
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1302,61 +1302,61 @@ http://103.175.73.12:8080/live/13/13_0.m3u8
 
 
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema (Zee)
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema (Zee)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeebanglacinema&u=Stream-star
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=fbbfd9ce4bbe4d818b16df7dfe89f05b&key=1e96d0f88ef740e982d6f6105721c8bc
-#EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/gLSSl4nG.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg", Zee Bangla Cinema (Dish)
+#EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/gLSSl4nG.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", Zee Bangla Cinema (Dish)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema
 https://stream.ottplus.bd/live/zee_bangla_cinema_abr/live/zee_bangla_cinema_720/chunks.m3u8
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema 1
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema 1
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD-video=2137600.m3u8
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema 2
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema 2
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
 
-#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg", Star JALSHA MOVIES (Sun)
+#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", Star JALSHA MOVIES (Sun)
 http://103.151.61.12/Jalsha_Movie/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg", Star JALSHA MOVIES (Sun)
+#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", Star JALSHA MOVIES (Sun)
 http://103.151.61.12/Jalsha_Movie/video.m3u8?token=i7bZaZWaFrSIE0
 
-#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg", Star JALSHA MOVIES (Sun)
+#EXTINF:-1 tvg-id="jalsha_movies_hd" tvg-logo="https://image.sm-ultra-restream.workers.dev/uploads/tv_image/%E0%A6%9C%E0%A6%B2%E0%A6%B8-movies-hd.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", Star JALSHA MOVIES (Sun)
 http://103.151.60.162:2122/play/a00x/index.m3u8?hls
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD
 http://180.94.28.28:8097//JALSHA-MOVIES/index.fmp4.m3u8
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD (Tata play)
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD (Tata play)
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=225776&extension=ts&play_token=XKjrYGniwd
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD (Tata play)1
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://p7.hiclipart.com/preview/535/809/286/jalsha-movies-star-jalsha-television-show-star-india-sitarhd.jpg",Star jalsah Movie HD (Tata play)1
 http://mag.trexlive.me:80/play/live.php?mac=A0%3ABB%3A3E%3A42%3AA2%3A9C&stream=155771&extension=ts&play_token=N9BtkbkCPJ
 
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg",Colors Bangla Cinema
+#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Colors Bangla Cinema
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=1657&e=.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg",Colors Bangla Cinema (Jio)
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Colors Bangla Cinema (Jio)
 http://103.180.212.191:3500/live/1657.m3u8
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png",Colors Bangla Cinema (jio)2
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png",Colors Bangla Cinema (jio)2
 http://live.balajibroadband.com:3500/live/1657.m3u8
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png",Colors Bangla Cinema (jio)3
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png",Colors Bangla Cinema (jio)3
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=1657&e=.m3u8
 
-#EXTINF:-1 group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg" tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png",Colors Bangla Cinema
+#EXTINF:-1 group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://otapp.store/uploads/tv_image/sm/colors-bangla-cinema.png",Colors Bangla Cinema
 http://180.94.28.28:8097//COLORS-BANGLA-CINEMA/index.fmp4.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Bangla Movie" group-logo="https://mir-s3-cdn-cf.behance.net/projects/404/97af8697707749.Y3JvcCw5ODYsNzcxLDEwMiwxODMz.jpg",Colors Bangla Cinema
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_Bangla_Cinema.png" group-title="Bangla Movie" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Colors Bangla Cinema
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://live.shamim-iptv.workers.dev/coloursbanglachinema.m3u8
 
@@ -1541,7 +1541,7 @@ https://s1.itcnbd.live/SangeetBangla/index.m3u8
 #EXTINF:-1 group-title="Music" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U MUSIC
 http://66.102.126.10:8000/play/a01e/index.m3u8
 
-#EXTINF:-1 tvg-id="157" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-title="Music" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U Music
+#EXTINF:-1 tvg-id="157" tvg-logo="" group-title="Music" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",B4U Music
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1555,7 +1555,7 @@ http://103.175.73.12:8080/live/157/master.m3u8
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/158/master.m3u8
 
-#EXTINF:-1 tvg-id="159" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-title="Music" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",E 24
+#EXTINF:-1 tvg-id="159" tvg-logo="" group-title="Music" tvg-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg" group-logo="https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",E 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
@@ -1659,59 +1659,59 @@ https://m3u.cloudplay.qzz.io/z5/0-9-zeekalinganews.m3u8
 
 
 
-#EXTINF:-1 tvg-id="0-9-209" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-209/list/1920x1080list1fb75b73f2e441d49af9bc4a1ad782de.png",&xplorHD (ZEE)
+#EXTINF:-1 tvg-id="0-9-209" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-209/list/1920x1080list1fb75b73f2e441d49af9bc4a1ad782de.png",&xplorHD (ZEE)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-209&u=Stream-star
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",&flix
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",&flix
 http://103.151.60.162:2122/play/a01m/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",HBO HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",HBO HD
 http://103.151.60.162:2122/play/a00q/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",Movies Now
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Movies Now
 http://180.94.28.28:8097//MOVIES-NOW/index.fmp4.m3u8?token=8827e074d26958c8c9daa9a832390e68a169cd09-601dde3eea52847bbdd05b326099c905-1776169973-1776166373&remote=no_check_ip
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg", MNX HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", MNX HD
 http://202.70.146.135:8000/play/a052/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg", MNX HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg", MNX HD
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=156021&extension=ts&play_token=1VEMLWzpQI
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",MN PLUS HD
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",MN PLUS HD
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=156025&extension=ts&play_token=xch25rRNAZ
 
-#EXTINF:-1 group-title="English Movies" tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",LotusTV
+#EXTINF:-1 group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",LotusTV
 http://66.102.126.10:8000/play/a03b/index.m3u8
 
-#EXTINF:-1 group-title="English Movies" tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",iFilm English
+#EXTINF:-1 group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",iFilm English
 http://66.102.126.10:8000/play/a06n/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",HITS MOVIES
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",HITS MOVIES
 http://103.151.60.162:2122/play/a01h/index.m3u8?hls
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",Hits
+#EXTINF:-1 tvg-logo="" group-title="English Movies" tvg-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",Hits
 http://103.151.60.162:2122/play/a02g/index.m3u8?hls
 
-#EXTINF:-1 tvg-id="star_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES HD1745040174.png" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",STAR MOVIES HD (Tata play)1
+#EXTINF:-1 tvg-id="star_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES HD1745040174.png" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",STAR MOVIES HD (Tata play)1
 http://66.102.126.10:8000/play/a021/index.m3u8
 
-#EXTINF:-1 tvg-id="star_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES HD1745040174.png" group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",STAR MOVIES HD (Tata play)2
+#EXTINF:-1 tvg-id="star_movies_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES HD1745040174.png" group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",STAR MOVIES HD (Tata play)2
 http://202.70.146.135:8000/play/a06r/index.m3u8
 
-#EXTINF:-1 group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" tvg-id="star_movies_select_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES SELECT HD1745038723.png",STAR Movies Select HD
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-id="star_movies_select_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR MOVIES SELECT HD1745038723.png",STAR Movies Select HD
 http://66.102.126.10:8000/play/a020/index.m3u8
 
-#EXTINF:-1 group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix SD (Tata Play)
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix SD (Tata Play)
 http://103.151.60.162:2122/play/a01d/index.m3u8?hls
 
-#EXTINF:-1 group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Tata Play)
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Tata Play)
 http://66.102.126.10:8000/play/a01z/index.m3u8
 
-#EXTINF:-1 group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Jio)2
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Jio)2
 http://live.balajibroadband.com:3500/live/762.m3u8
 
-#EXTINF:-1 group-title="English Movies" group-logo="https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Jio)3
+#EXTINF:-1 group-title="English Movies" group-logo="https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg" tvg-logo="https://www.tvwish.com/img/channel/28.webp",Sony pix HD (Jio)3
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=762&e=.m3u8
 
@@ -1988,23 +1988,23 @@ https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Sony LIV" group-logo="https://static.vecteezy.com/system/resources/previews/075/195/417/non_2x/sony-liv-logo-rounded-glossy-icon-with-transparent-background-free-png.png" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
+#EXTINF:-1 tvg-id="1000009248" tvg-name="SAB HD" group-title="Sony LIV" group-logo="https://www.medianews4u.com/wp-content/uploads/2017/08/sony-liv-logo-1-3-2.jpg" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248
 
-#EXTINF:-1 tvg-id="1000009273" tvg-name="SONY PAL" group-title="Sony LIV" group-logo="https://static.vecteezy.com/system/resources/previews/075/195/417/non_2x/sony-liv-logo-rounded-glossy-icon-with-transparent-background-free-png.png" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL
+#EXTINF:-1 tvg-id="1000009273" tvg-name="SONY PAL" group-title="Sony LIV" group-logo="https://www.medianews4u.com/wp-content/uploads/2017/08/sony-liv-logo-1-3-2.jpg" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273
 
-#EXTINF:-1 tvg-id="1000001971" tvg-name="SONY YAY" group-title="Sony LIV" group-logo="https://static.vecteezy.com/system/resources/previews/075/195/417/non_2x/sony-liv-logo-rounded-glossy-icon-with-transparent-background-free-png.png" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",SONY YAY
+#EXTINF:-1 tvg-id="1000001971" tvg-name="SONY YAY" group-title="Sony LIV" group-logo="https://www.medianews4u.com/wp-content/uploads/2017/08/sony-liv-logo-1-3-2.jpg" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",SONY YAY
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971
 
-#EXTINF:-1 tvg-id="1000009247" tvg-name="SONY MAX HD" group-title="Sony LIV" group-logo="https://static.vecteezy.com/system/resources/previews/075/195/417/non_2x/sony-liv-logo-rounded-glossy-icon-with-transparent-background-free-png.png" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",SONY MAX HD
+#EXTINF:-1 tvg-id="1000009247" tvg-name="SONY MAX HD" group-title="Sony LIV" group-logo="https://www.medianews4u.com/wp-content/uploads/2017/08/sony-liv-logo-1-3-2.jpg" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",SONY MAX HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247
 
-#EXTINF:-1 tvg-id="1000009253" tvg-name="SONY WAH" group-title="Sony LIV" group-logo="https://static.vecteezy.com/system/resources/previews/075/195/417/non_2x/sony-liv-logo-rounded-glossy-icon-with-transparent-background-free-png.png" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH
+#EXTINF:-1 tvg-id="1000009253" tvg-name="SONY WAH" group-title="Sony LIV" group-logo="https://www.medianews4u.com/wp-content/uploads/2017/08/sony-liv-logo-1-3-2.jpg" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253
 
@@ -2238,6 +2238,9 @@ https://pixeldrain.net/api/file/BKXZxBDF?download
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 50" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 50
 https://pixeldrain.net/api/file/GybW9kfJ?download
+
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 50" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21" group-logo="https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",Episode 51
+https://pixeldrain.net/api/file/pRdmdGEh?download
 
 #=================================
 # Developed by: Monirul Islam
