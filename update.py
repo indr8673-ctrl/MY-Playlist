@@ -1,7 +1,7 @@
 import re
 import requests
 
-# ১. আপনার tv.m3u ফাইল পড়া (টিভি চ্যানেল + বেন টেন + ডোরেমন সিজন ২১ সহ)
+# ১. আপনার tv.m3u ফাইল পড়া
 try:
     with open('tv.m3u', 'r', encoding='utf-8') as f:
         my_playlist = f.read().strip()
@@ -10,7 +10,7 @@ except Exception as e:
     my_playlist = "#EXTM3U"
 
 # ==========================================================
-# আপনার tv.m3u ফাইলের ক্যাটাগরিগুলোর লোগো (নতুন Doraemon Season 21 সহ)
+# আপনার tv.m3u ফাইলের ক্যাটাগরিগুলোর লোগো
 # ==========================================================
 my_category_logos = {
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
@@ -27,13 +27,11 @@ my_category_logos = {
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
-    "Ben 10: Alien Force [Hindi]": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
     "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
-    "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
     "Doraemon": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg"
 }
 
-# ২. tv.m3u ফাইলের চ্যানেল ও সব কার্টুনে (বেন টেন + ডোরেমন) অটোমেটিক লোগো বসানো
+# ২. tv.m3u ফাইলের সব লাইন প্রসেস করা
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
@@ -41,14 +39,19 @@ for line in my_playlist.splitlines():
         match = re.search(r'group-title="([^"]+)"', line_str)
         if match:
             group_name = match.group(1)
-            if group_name in my_category_logos:
-                logo_url = my_category_logos[group_name]
+            # ডিকশনারির সাথে ক্যাটাগরি ম্যাচ করানো (আংশিক ম্যাচ সহ)
+            logo_url = None
+            for key in my_category_logos:
+                if key.lower() in group_name.lower():
+                    logo_url = my_category_logos[key]
+                    break
+            
+            if logo_url:
                 line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
                 line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
-                if 'tvg-logo=""' in line_str:
-                    line_str = line_str.replace('tvg-logo=""', f'tvg-logo="{logo_url}"')
-                elif 'tvg-logo="' not in line_str:
+                if 'tvg-logo=""' in line_str or 'tvg-logo="' not in line_str:
                     line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" tvg-logo="{logo_url}"')
+    
     processed_my_playlist.append(line_str)
 
 my_playlist_updated = "\n".join(processed_my_playlist)
@@ -157,4 +160,4 @@ else:
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated with Doraemon, Ben 10, Live TV, and external links successfully!")
+print("SUCCESS: Master tv.m3u with Doraemon and all channels converted to playlist.m3u!")
