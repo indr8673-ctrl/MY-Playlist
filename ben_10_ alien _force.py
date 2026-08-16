@@ -3,25 +3,41 @@ import os
 playlist_file = "playlist.m3u"
 ben10_m3u = "ben_10_alien_force.m3u"
 
-# ১. M3U ফাইল থেকে ডাটা পড়া
-ben10_content = ""
-if os.path.exists(ben10_m3u):
-    with open(ben10_m3u, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-        clean_lines = [line for line in lines if not line.startswith("#EXTM3U")]
-        ben10_content = "".join(clean_lines)
+def merge_playlists():
+    # বেন টেন ফাইলটি খোঁজা (স্পেস বা নাম যাই থাক)
+    matched_ben10_file = None
+    if os.path.exists(ben10_m3u):
+        matched_ben10_file = ben10_m3u
+    else:
+        for file in os.listdir('.'):
+            if "ben_10" in file.lower() and file.endswith(".m3u"):
+                matched_ben10_file = file
+                break
 
-# ২. playlist.m3u ফাইলে যুক্ত করা
-if os.path.exists(playlist_file) and ben10_content:
-    with open(playlist_file, "r", encoding="utf-8") as f:
-        current_data = f.read()
+    if not matched_ben10_file:
+        print("Error: Ben 10 M3U file not found!")
+        return
 
-    # আগের সব চ্যানেলের ঠিক নিচে নতুন এপিসোডগুলো পেস্ট করা
-    updated_data = current_data.strip() + "\n\n" + ben10_content.strip()
+    # ১. বেন টেন ফাইলের কন্টেন্ট পড়া (#EXTM3U বাদ দিয়ে)
+    with open(matched_ben10_file, "r", encoding="utf-8") as f:
+        ben10_lines = f.readlines()
+    
+    clean_ben10_content = "".join([line for line in ben10_lines if not line.startswith("#EXTM3U")])
 
-    with open(playlist_file, "w", encoding="utf-8") as f:
-        f.write(updated_data)
+    # ২. মূল playlist.m3u ফাইলের সাথে জোড়া লাগানো
+    if os.path.exists(playlist_file):
+        with open(playlist_file, "r", encoding="utf-8") as f:
+            main_playlist_data = f.read()
 
-    print("SUCCESS: Ben 10 episodes added to playlist.m3u")
-else:
-    print("ERROR: File not found or empty!")
+        # প্লেলিস্টের মূল ডাটার নিচে বেন টেন যুক্ত করা
+        updated_playlist = main_playlist_data.strip() + "\n\n" + clean_ben10_content.strip()
+
+        with open(playlist_file, "w", encoding="utf-8") as f:
+            f.write(updated_playlist)
+
+        print("SUCCESS: Ben 10 Alien Force channels appended successfully to playlist.m3u!")
+    else:
+        print("Error: playlist.m3u file does not exist!")
+
+if __name__ == "__main__":
+    merge_playlists()
