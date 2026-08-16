@@ -25,13 +25,12 @@ jobs:
 
       - name: Run Update Scripts
         run: |
-          python update.py
-          python ben_10_alien_force.py
+          python update.py || true
+          python ben_10_alien_force.py || true
 
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add playlist.m3u
-          git commit -m "Auto-updated playlist with fresh tokens" || exit 0
-          git push
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-updated playlist" && git push)
