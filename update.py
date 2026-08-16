@@ -1,7 +1,7 @@
 import re
 import requests
 
-# ১. আপনার tv.m3u ফাইল পড়া (টিভি চ্যানেল + বেন টেন + ডোরেমন সহ)
+# ১. tv.m3u ফাইল পড়া
 try:
     with open('tv.m3u', 'r', encoding='utf-8') as f:
         my_playlist = f.read().strip()
@@ -10,7 +10,7 @@ except Exception as e:
     my_playlist = "#EXTM3U"
 
 # ==========================================================
-# আপনার tv.m3u ফাইলের ক্যাটাগরিগুলোর লোগো (বেন টেন ও ডোরেমন সহ)
+# আপনার ক্যাটাগরি লোগোর তালিকা
 # ==========================================================
 my_category_logos = {
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
@@ -27,13 +27,11 @@ my_category_logos = {
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
-    "Ben 10: Alien Force [Hindi]": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
     "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
-    "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
     "Doraemon": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg"
 }
 
-# ২. tv.m3u ফাইলের সব লাইন প্রসেস করা ও প্রয়োজন অনুযায়ী লোগো সেট করা
+# ২. tv.m3u ফাইলের সব ডেটা হুবহু অক্ষত রেখে প্রসেস করা
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
@@ -42,84 +40,31 @@ for line in my_playlist.splitlines():
         match = re.search(r'group-title="([^"]+)"', line_str)
         if match:
             group_name = match.group(1)
-            
-            # ক্যাটাগরির নামের সাথে আংশিক মিল খুঁজে লোগো বসানো
-            logo_url = None
-            for key, url in my_category_logos.items():
+            # লোগো ম্যাচিং
+            for key, logo_url in my_category_logos.items():
                 if key.lower() in group_name.lower():
-                    logo_url = url
+                    if 'group-logo=' not in line_str or 'group-logo=""' in line_str:
+                        line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
                     break
-            
-            if logo_url:
-                # লোগো না থাকলে বা ফাঁকা থাকলে আপডেট করে দেবে
-                if 'group-logo=' not in line_str or 'group-logo=""' in line_str:
-                    line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
-                if 'tvg-logo=' not in line_str or 'tvg-logo=""' in line_str:
-                    line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" tvg-logo="{logo_url}"')
-
-    # tv.m3u-এর প্রতিটা লাইন নিশ্চিতভাবে রাখা হচ্ছে
+                    
     processed_my_playlist.append(line_str)
 
 my_playlist_updated = "\n".join(processed_my_playlist)
 
-# ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার অংশ
+# ৩. বাইরের অনলাইনের প্লেলিস্ট যুক্ত করার আলাদা লজিক (নিরাপদ উপায়)
 playlists_to_add = [
-    {
-        "group_name": "Sony BD",
-        "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg",
-        "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"
-    },
-    {
-        "group_name": "Sony BD 2",
-        "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"
-    },
-    {
-        "group_name": "Toffee BD",
-        "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"
-    },
-    {
-        "group_name": "Doraemon Season 21",
-        "group_logo": "https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
-        "url": "https://raw.githubusercontent.com/indr8673-ctrl/MY-Playlist/refs/heads/main/doraemon.m3u"
-    },
-    {
-        "group_name": "AKASH",
-        "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15",
-        "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"
-    },
-    {
-        "group_name": "BDIX TV",
-        "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"
-    },
-    {
-        "group_name": "Ayna TV",
-        "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg",
-        "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u"
-    },
-    {
-        "group_name": "RoarZone",
-        "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png",
-        "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"
-    },
-    {
-        "group_name": "BDIX",
-        "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png",
-        "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"
-    },
-    {
-        "group_name": "AlixBD",
-        "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg",
-        "url": "http://alixbd.com/2022.m3u"
-    }
+    {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
+    {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"},
+    {"group_name": "Toffee BD", "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"},
+    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"},
+    {"group_name": "BDIX TV", "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"},
+    {"group_name": "Ayna TV", "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg", "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u"},
+    {"group_name": "RoarZone", "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"},
+    {"group_name": "BDIX", "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png", "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"},
+    {"group_name": "AlixBD", "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg", "url": "http://alixbd.com/2022.m3u"}
 ]
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-}
-
+headers = {'User-Agent': 'Mozilla/5.0'}
 all_external_channels = []
 
 for item in playlists_to_add:
@@ -133,42 +78,33 @@ for item in playlists_to_add:
     try:
         response = requests.get(url, headers=headers, timeout=10)
         if response.status_code == 200:
-            playlist_text = response.text
-        else:
-            continue
-    except Exception as e:
+            for line in response.text.splitlines():
+                line_str = line.strip()
+                if not line_str or line_str.startswith('#EXTM3U'):
+                    continue
+
+                if line_str.startswith('#EXTINF'):
+                    # বাহ্যিক চ্যানেলের গ্রূপ ট্যাগ পরিষ্কার করে নতুন নাম সেট
+                    line_str = re.sub(r'group-title="[^"]*"', '', line_str)
+                    line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
+                    
+                    logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
+                    
+                    if ',' in line_str:
+                        parts = line_str.split(',', 1)
+                        line_str = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
+                    else:
+                        line_str = f'{line_str} group-title="{group_name}"{logo_attr}'
+
+                all_external_channels.append(line_str)
+    except Exception:
         continue
 
-    for line in playlist_text.splitlines():
-        line_str = line.strip()
-
-        if not line_str or line_str.startswith('#EXTM3U'):
-            continue
-
-        if line_str.startswith('#EXTINF'):
-            line_str = re.sub(r'group-title="[^"]*"', '', line_str)
-            line_str = re.sub(r'tvg-group="[^"]*"', '', line_str)
-            line_str = re.sub(r'group-title=\S+', '', line_str)
-            line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
-
-            logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
-            
-            if ',' in line_str:
-                parts = line_str.split(',', 1)
-                line_str = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
-            else:
-                line_str = f'{line_str} group-title="{group_name}"{logo_attr}'
-
-        all_external_channels.append(line_str)
-
-# ৪. ফাইল সেভ করা (tv.m3u-এর টিভি চ্যানেল + Ben 10 + Doraemon + বাইরের লাইভ টিভি)
+# ৪. ফাইল সেভ করা
 external_content = "\n".join(all_external_channels)
-if external_content:
-    final_content = f"{my_playlist_updated}\n\n{external_content}"
-else:
-    final_content = my_playlist_updated
+final_content = f"{my_playlist_updated}\n\n{external_content}" if external_content else my_playlist_updated
 
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("All Playlists, Channels, Ben 10, and Doraemon Episodes updated successfully!")
+print("Updated successfully!")
