@@ -23,8 +23,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run update script
-        run: python update.py
+      - name: Run Update Scripts
+        run: |
+          python update.py
+          python ben_10_alien_force.py
 
       - name: Commit and Push changes
         run: |
