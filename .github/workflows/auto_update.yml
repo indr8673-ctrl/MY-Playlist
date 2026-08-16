@@ -25,15 +25,13 @@ jobs:
 
       - name: Run Update Scripts
         run: |
-          python update.py
-          python ben_10_alien_force.py
+          python update.py || echo "update.py had issues"
+          python ben_10_alien_force.py || echo "ben_10_alien_force.py had issues"
 
       - name: Commit and Push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "Auto-updated playlist with Ben 10" || echo "No changes to commit"
-          git push origin main || exit 0
+          git add playlist.m3u
+          git commit -m "Auto-updated playlist with Ben 10" || exit 0
+          git push origin main || git push
