@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run update script
+      - name: Run Update Script
         run: python update.py
 
       - name: Commit and Push changes
@@ -31,5 +31,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add playlist.m3u
-          git commit -m "Auto-updated playlist with fresh tokens" || exit 0
-          git push
+          git commit -m "Auto-updated playlist from tv.m3u with fresh tokens and Ben 10" || exit 0
+          git push origin main || git push
