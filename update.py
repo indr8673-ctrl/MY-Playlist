@@ -1,15 +1,16 @@
 import re
 import requests
 
-# ১. আপনার tv.m3u ফাইল পড়া
+# ১. আপনার tv.m3u ফাইল পড়া (যার ভেতরে টিভি চ্যানেল + বেন টেনের সব এপিসোড একসাথে যুক্ত আছে)
 try:
     with open('tv.m3u', 'r', encoding='utf-8') as f:
         my_playlist = f.read().strip()
 except Exception as e:
+    print(f"Error reading tv.m3u: {e}")
     my_playlist = "#EXTM3U"
 
 # ==========================================================
-# আপনার নোটপ্যাড (tv.m3u) এর ক্যাটাগরিগুলোর লোগো এখানে একবার সেট করুন
+# আপনার tv.m3u ফাইলের ক্যাটাগরিগুলোর লোগো (বেন টেন সহ)
 # ==========================================================
 my_category_logos = {
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
@@ -26,22 +27,20 @@ my_category_logos = {
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
-    # প্রয়োজনমতো "ক্যাটাগরির নাম": "লোগোর লিংক", এভাবে আরও যোগ করতে পারবেন
+    "Ben 10: Alien Force [Hindi]": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
+    "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10"
 }
 
-# ২. আপনার tv.m3u ফাইলের ক্যাটাগরিতে অটোমেটিক লোগো বসানো
+# ২. আপনার tv.m3u ফাইলের ক্যাটাগরিতে (টিভি চ্যানেল ও বেন টেন কার্টুন) অটোমেটিক লোগো বসানো
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
     if line_str.startswith('#EXTINF'):
-        # group-title খুঁজে বের করা
         match = re.search(r'group-title="([^"]+)"', line_str)
         if match:
             group_name = match.group(1)
-            # যদি এই গ্রুপের লোগো আমাদের লিস্টে থাকে
             if group_name in my_category_logos:
                 logo_url = my_category_logos[group_name]
-                # পুরনো group-logo বা tvg-logo মুছে নতুন লোগো বসানো
                 line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
                 line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
                 if 'tvg-logo=""' in line_str:
@@ -116,7 +115,7 @@ for item in playlists_to_add:
         continue
 
     try:
-        response = requests.get(url, headers=headers, timeout=25)
+        response = requests.get(url, headers=headers, timeout=10)
         if response.status_code == 200:
             playlist_text = response.text
         else:
@@ -146,12 +145,14 @@ for item in playlists_to_add:
 
         all_external_channels.append(line_str)
 
-# ৪. ফাইল সেভ করা
+# ৪. ফাইল সেভ করা (tv.m3u-এর মূল চ্যানেল + বেন টেন + বাইরের লাইভ টিভি)
 external_content = "\n".join(all_external_channels)
-final_content = f"{my_playlist_updated}\n\n{external_content}"
+if external_content:
+    final_content = f"{my_playlist_updated}\n\n{external_content}"
+else:
+    final_content = my_playlist_updated
 
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("All Playlists and Categories updated with logos successfully!")
-
+print("All Playlists, Channels, and Ben 10 Episodes updated successfully!")
