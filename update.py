@@ -10,7 +10,7 @@ except Exception as e:
     my_playlist = "#EXTM3U"
 
 # ==========================================================
-# আপনার ক্যাটাগরি লোগোর তালিকা
+# আপনার সব ক্যাটাগরির লোগোর তালিকা (Ben 10: Ultimate Alien সহ)
 # ==========================================================
 my_category_logos = {
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
@@ -27,11 +27,13 @@ my_category_logos = {
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
+    "Ben 10: Ultimate Alien [Hindi]": "https://i.ytimg.com/vi/Nle2PdBmlhQ/hq720.jpg",
     "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
+    "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
     "Doraemon": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg"
 }
 
-# ২. tv.m3u ফাইলের সব ডেটা হুবহু অক্ষত রেখে প্রসেস করা
+# ২. tv.m3u ফাইলের সব লাইন অক্ষত রেখে প্রসেস করা
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
@@ -40,7 +42,7 @@ for line in my_playlist.splitlines():
         match = re.search(r'group-title="([^"]+)"', line_str)
         if match:
             group_name = match.group(1)
-            # লোগো ম্যাচিং
+            # লোগো ম্যাচ করানো
             for key, logo_url in my_category_logos.items():
                 if key.lower() in group_name.lower():
                     if 'group-logo=' not in line_str or 'group-logo=""' in line_str:
@@ -51,7 +53,7 @@ for line in my_playlist.splitlines():
 
 my_playlist_updated = "\n".join(processed_my_playlist)
 
-# ৩. বাইরের অনলাইনের প্লেলিস্ট যুক্ত করার আলাদা লজিক (নিরাপদ উপায়)
+# ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার নিরাপদ লজিক
 playlists_to_add = [
     {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
     {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"},
@@ -84,7 +86,6 @@ for item in playlists_to_add:
                     continue
 
                 if line_str.startswith('#EXTINF'):
-                    # বাহ্যিক চ্যানেলের গ্রূপ ট্যাগ পরিষ্কার করে নতুন নাম সেট
                     line_str = re.sub(r'group-title="[^"]*"', '', line_str)
                     line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
                     
@@ -100,11 +101,11 @@ for item in playlists_to_add:
     except Exception:
         continue
 
-# ৪. ফাইল সেভ করা
+# ৪. আউটপুট ফাইল তৈরি
 external_content = "\n".join(all_external_channels)
 final_content = f"{my_playlist_updated}\n\n{external_content}" if external_content else my_playlist_updated
 
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Updated successfully!")
+print("Updated with Ben 10 Ultimate Alien successfully!")
