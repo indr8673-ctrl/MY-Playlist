@@ -281,9 +281,7 @@ https://fifa.assadikb.workers.dev/?id=sony_sports_5_hd
 
 
 
-#EXTINF:-1 group-title="Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/kK2aX5UBrjBfS2_RBcKf/posters/27adfd02-eb19-44e3-9636-34b7be048657.png",Zee Bangla (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-9z5383484&u=Stream-star
+
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bangla-hd.png" group-title="Bangla",Zee Bangla SD
 http://103.151.60.162:2122/play/a011/index.m3u8?hls
@@ -297,16 +295,8 @@ https://stream.ottplus.bd/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/kK2aX5UBrjBfS2_RBcKf/posters/27adfd02-eb19-44e3-9636-34b7be048657.png",Zee Bangla 1
 http://103.159.180.34:5001/live/625.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=1df83e058b864da896c9288eef63b113&key=fc32f26239054b56aab48225305598fe
-#EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/9XHWylqs.png" group-title="Bangla", Zee Bangla HD (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd
-
 #EXTINF:-1 group-title="Bangla" tvg-logo="https://assets-prod.services.toffeelive.com/kK2aX5UBrjBfS2_RBcKf/posters/27adfd02-eb19-44e3-9636-34b7be048657.png",Zee Bangla HD +
 http://180.94.28.28:8097/ZEE-BANGLA/tracks-v1a1/mono.m3u8
-
-
 
 #EXTINF:-1 tvg-id="star_jalsha_hd" tvg-logo="http://monirul.bro.bd/assets/images/STAR JALSHA HD1745033819.png" group-title="Bangla",STAR JALSHA SD (Sun)
 http://103.151.60.162:2122/play/a00w/index.m3u8?hls
@@ -445,24 +435,9 @@ http://live.balajibroadband.com:3500/live/474.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=474&e=.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=ed068cf84f0640ccbc7c0e395c0a272e&key=bb722190f2bb446391020411a7d0828b
-#EXTINF:-1 tvg-id="zee-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/yHNSuG1V.png" group-title="Entertainment", Zee TV SD (dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
 
 #EXTINF:-1 group-title="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoSSASCq73ujvayNn81Afdwd8jagrC9O6QIt9bGOialg&s=10",Zee TV SD
 https://stream.ottplus.bd/live/zee_tv_hd_abr/live/zee_tv_hd_720/chunks.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="Entertainment" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmol/list/1920x1080listef6865f9714b40139037d98300559cd7.png", Zee Anmol TV (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeeanmol&u=Stream-star
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=4023613457774cbeb71a62c339970e63&key=1c3e9fce5f014542be9cd1f749181204
-#EXTINF:-1 tvg-id="zee-anmol" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/QjKdER9Z.png" group-title="Entertainment", Zee Anmol (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd
 
 #EXTINF:-1 tvg-id="256" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/diYkUOnX.png" group-title="Entertainment", Zee Anmol TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -470,12 +445,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_headers="User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 #KODIPROP:mimetype=application/dash+xml
 http://103.175.73.12:8080/live/256/master.m3u8
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=26df86eeebb04d7fbc45c948f76e81fd&key=5f3a23f1a73c4c96ababce5fffe7b06b
-#EXTINF:-1 tvg-id="and-tv-sd" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/T1CCvaAQ.png" group-title="Entertainment", And TV SD (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Colors_SD.png" group-title="Entertainment",Colors SD (Jio)
 http://103.180.212.191:3500/live/1368.m3u8
@@ -595,7 +564,7 @@ https://stream.kliv.in/ROPX/opp233/167551.m3u8
 https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)
-https://ranapkx.site/TVD/NEW/play.php?id=372986
+https://ranapkz.site/TVD/NEW/play.php?id=372986
 
 #EXTINF:-1 group-title="Kid" tvg-logo="https://toppng.com/uploads/preview/new-disney-channel-logo-vector-free-download-11574247903pfuddm63lv.png",Disney (airtle)1
 https://bdixgen.site//MAC/SHGOLD/play.php?id=281356
@@ -858,12 +827,6 @@ https://mflixott.com/tv/toffee-by-maruf/live.php?cid=pogo_sd&chunks=faa1c4a9da7f
 #KODIPROP:inputstream.adaptive.license_key=747bbd76538e54aba7b84da4d5dc5aba:bd594239af2c1befc5d117cc72c83f33
 https://login.bheem.tv/bpk-tv/22603/output/index.mpd
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=601f58d4b7094d2baf78c85d1d9cb6c9&key=609e0cc03198455fa36fd2cc3e7f940d
-#EXTINF:-1 tvg-id="discovery-kids" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/RzedYhFG.png" group-title="Kid", Discovery Kids (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd
-
 #EXTINF:-1 group-title="Kid"  tvg-logo="https://assets-prod.services.toffeelive.com/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp",Discovery Kids (jio)2
 http://live.balajibroadband.com:3500/live/554.m3u8
 
@@ -1034,35 +997,9 @@ http://103.151.60.162:2122/play/a024/index.m3u8?hls
 #EXTINF:-1 group-title="Movie" tvg-logo="https://www.pngkey.com/png/full/532-5320038_zee-cinema.png",Zee cinema HD
 http://103.151.60.162:2122/play/a012/index.m3u8?hls
 
-#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
-#KODIPROP:inputstream.adaptive.license_key=f56beaac9f124616872c741c9ce4fa4e:5d40a903238f4ad98abbed1877d4e3d1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.watcho.com/
-#EXTVLCOPT:http-origin=https://www.watcho.com
-#EXTINF:-1 tvg-id="ZEE CINEMA HD" tvg-name="ZEE CINEMA HD" group-title="Movie" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/eqrpdx.png",ZEE CINEMA HD
-https://d1g8wgjurz8via.cloudfront.net//bpk-tv//Zeecinemahd/default//manifest.mpd
-
-#EXTINF:-1 tvg-id="0-9-176" group-title="Movie" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-176/list/1920x1080list18cba842de654a3cb92b33556dfa0bc2.png",Zee Classic (ZEE)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-176&u=Stream-star
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bollywood.jpg" group-title="Movie",Zee Bollywood (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeeclassic&u=Stream-star
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=e61523260c614746b25b9a5523fe9a39&key=72ddbf37f76f49acbb8e140e7279e7a1
-#EXTINF:-1 tvg-id="zee-bollywood" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/EqDlflgi.png" group-title="Movie", Zee Bollywood (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
-
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-bollywood.jpg" group-title="Movie",Zee Bollywood
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://book4u.top/worker/index.php?path=api/3547925ef0/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-action.png" group-title="Movie",Zee Action (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeeaction&u=Stream-star
 
 #EXTINF:-1 tvg-id="270" tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-action.png" group-title="Movie",Zee Action
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -1081,16 +1018,6 @@ https://stream.ottplus.bd/live/zee_action_abr/live/zee_action_720/chunks.m3u8
 #EXTINF:-1 group-title="Movie" tvg-logo="https://otapp.store/uploads/tv_image/sm/zee-action.png",Zee action (airtle)
 http://line.iptvhunt.com:80/play/live.php?mac=A0%3ABB%3A3E%3A77%3A64%3A0F&stream=156139&extension=ts&play_token=PwaNg28lkH
 
-#EXTINF:-1 tvg-id="0-9-zeeanmolcinema" group-title="Movie" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmolcinema/list/1920x1080listfa46ad9c89684d268b5c141e7987de38.png",Zee Anmol Cinema (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeeanmolcinema&u=Stream-star
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=812411cba8bc42c79eb2b19cd78ad3f3&key=468a0b8d3d5d42d8a5c41bb875390a74
-#EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/diYkUOnX.png" group-title="Movie", Zee Anmol Cinema (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmolcinema/default/manifest.mpd
-
 #EXTINF:-1 tvg-id="271" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/diYkUOnX.png" group-title="Movie", Zee Anmol Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1108,30 +1035,13 @@ http://103.175.73.12:8080/live/257/master.m3u8
 #EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c8/Zee_Anmol_Cinema_2_logo.png/revision/latest/scale-to-width-down/320?cb=20250613025721",ZEE ANIMAL CINEMA 2
 http://103.175.73.12:8080/live/257/257_0.m3u8
 
-#EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c8/Zee_Anmol_Cinema_2_logo.png/revision/latest/scale-to-width-down/320?cb=20250613025721",ZEE ANIMAL CINEMA 2 (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-bigganga&u=Stream-star
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=8dea532cabfe4f71ba20f62310e7949f&key=7a214a974e4f4d1d9bb66364d5f0cb92
-#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/HivVrdof.png" group-title="Movie", And Pictures SD (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
 
 #EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/%26pictures_HD_2014.svg/revision/latest?cb=20231217022237",And Pictures SD 
 https://stream.ottplus.bd/live/and_picture_hd_abr/live/and_picture_hd_720/chunks.m3u8
 
-#EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/%26pictures_HD_2014.svg/revision/latest?cb=20231217022237",And Pictures SD (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-pictures&u=Stream-star
-
 #EXTINF:-1 group-title="Movie" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/%26pictures_HD_2014.svg/revision/latest?cb=20231217022237",And Pictures HD (Tata Play)
 http://66.102.126.10:8000/play/a01t/index.m3u8
 
-#EXTINF:-1 tvg-chno="304" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Movie",&Pictures HD (Dish)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=de8045e9f0fb4d03845dcc4a8bd7712a:6807bd09bda34ada83152908192af6d6
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/index.mpd
 
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/b4u-movies.png" group-title="Movie",B4U Movies
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
@@ -1302,15 +1212,6 @@ http://103.175.73.12:8080/live/13/13_0.m3u8
 
 
 
-#EXTINF:-1 group-title="Bangla Movie" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema (Zee)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeebanglacinema&u=Stream-star
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=fbbfd9ce4bbe4d818b16df7dfe89f05b&key=1e96d0f88ef740e982d6f6105721c8bc
-#EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/gLSSl4nG.png" group-title="Bangla Movie", Zee Bangla Cinema (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd
 
 #EXTINF:-1 group-title="Bangla Movie" tvg-logo="https://static.cdnlogo.com/logos/z/84/zee-bangla-cinema_thumb.png",Zee bangla cinema
 https://stream.ottplus.bd/live/zee_bangla_cinema_abr/live/zee_bangla_cinema_720/chunks.m3u8
@@ -1395,12 +1296,6 @@ http://live.balajibroadband.com:3500/live/3451.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=3451&e=.m3u8
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=b70a8cf9450c4d6484b4ac4d3c6761c0&key=0908be844260409cbac180bf0181da40
-#EXTINF:-1 tvg-id="discovey" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/UyI5ljKM.png" group-title="World", Discovery (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd
-
 #EXTINF:-1 tvg-logo="http://monirul.bro.bd/assets/images/discovery hd.png" group-title="World",Discovery Channel
 http://103.151.60.162:2122/play/a01k/index.m3u8?hls
 
@@ -1455,20 +1350,6 @@ http://103.151.61.12/NET_GEO/video.m3u8?token=i7bZaZWaFrSIE0
 
 
 
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=2a457a6a58184234ba9bfa6916ce8013&key=ef3dd80894774430a33ecbc9108e91d7
-#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/MJZdklJi.png" group-title="Music", MTV Beats (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Mtvbeats2/default/manifest.mpd
-
-#EXTINF:-1 tvg-id="zing" tvg-logo="http://monirul.bro.bd/assets/images/ZING1745042718.png" group-title="Music",ZING (Sun)
-http://monirul.bro.bd/sm/stream.php?id=zing&e=.m3u8
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://aqfadtv.xyz/clearkey/results.php?keyid=f0fb14eebe474a6ab74c8301d55a7224&key=f9f8b2e30704458b8db844a285ce32be
-#EXTINF:-1 tvg-id="zing" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/Nyi83z1G.png" group-title="Music", Zing (Dish)
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 
 #EXTINF:-1 tvg-id="161" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png" group-title="Music",9X Jalwa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -1482,20 +1363,10 @@ http://103.175.73.12:8080/live/161/master.m3u8
 #KODIPROP:inputstream.adaptive.license_key=0538cf4c5ed546a9956aadab2fdf3366:b0af534e1a5f459f9c751a0cb9d12d4c
 https://wiselp.wiseplayout.com/9X_Jalwa/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png" group-title="Music",9X Jalwa 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0538cf4c5ed546a9956aadab2fdf3366:b0af534e1a5f459f9c751a0cb9d12d4c
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9xjalwa2/default/main.mpd
-
 #EXTINF:-1 tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/rpxdkm.png" group-title="Music",9X Jhakaas 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5911de35875644f4a48ee9d426be297f:4316b9b0a9814b4381425e1b01886dc5
 https://wiselp.wiseplayout.com/9X_Jhakaas/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/rpxdkm.png" group-title="Music",9X Jhakaas 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5911de35875644f4a48ee9d426be297f:4316b9b0a9814b4381425e1b01886dc5
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9xjhakaas2/default/main.mpd
 
 #EXTINF:-1 tvg-id="155" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/36HEDUo4.png" group-title="Music",9XM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -1509,18 +1380,10 @@ http://103.175.73.12:8080/live/155/master.m3u8
 #KODIPROP:inputstream.adaptive.license_key=29f970f3bdef4935b7b2b6ace0316266:8e7efefcf8c843a184977c6c7063487c
 https://wiselp.wiseplayout.com/9XM/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/36HEDUo4.png" group-title="Music",9XM 2
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9xm2/default/main.mpd
-
 #EXTINF:-1 tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/xiseyx.png" group-title="Music",9X Tashan 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5774f9c8093547ac8796445049163c00:2716fd8f71974ffa82e68e198c8d91d6
 https://wiselp.wiseplayout.com/9X_Tashan/master.m3u8
-
-#EXTINF:-1 tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/xiseyx.png" group-title="Music",9X Tashan 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5774f9c8093547ac8796445049163c00:2716fd8f71974ffa82e68e198c8d91d6
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/9xtashan2/default/main.mpd
 
 #EXTINF:-1 tvg-id="592" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/jLvKrs62.png" group-title="Music",ZOOM
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
@@ -1566,13 +1429,6 @@ http://103.175.73.12:8080/live/159/master.m3u8
 
 
 
-#EXTINF:-1 tvg-id="0-9-zeehindustan" group-title="ID News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeehindustan/list/1920x1080list3cb4b5501cb44601b20150df7739eb34.png",Zee Bharat
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeehindustan&u=Stream-star
-
-#EXTINF:-1 tvg-id="0-9-zeebusiness" group-title="ID News" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebusiness/list/1920x1080list3eaf400b00cb4c83bf320df01fda3fbe.png",Zee Business
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeebusiness&u=Stream-star
 
 
 #EXTINF:-1 tvg-id="249" tvg-chno="204" tvg-name="india-today" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/fkszrn.png" group-title="ID News", India Today
@@ -1659,9 +1515,7 @@ https://m3u.cloudplay.qzz.io/z5/0-9-zeekalinganews.m3u8
 
 
 
-#EXTINF:-1 tvg-id="0-9-209" group-title="English Movies" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-209/list/1920x1080list1fb75b73f2e441d49af9bc4a1ad782de.png",&xplorHD (ZEE)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36
-https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-209&u=Stream-star
+
 
 #EXTINF:-1 tvg-logo="" group-title="English Movies",&flix
 http://103.151.60.162:2122/play/a01m/index.m3u8?hls
@@ -2043,6 +1897,16 @@ https://ranapkx.site/TVD/NEW/play.php?id=373069
 https://ranapkx.site/TVD/NEW/play.php?id=373067
 
 
+
+
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlV_Q6rLFWWvAiMy0HGJiXA0-isWSMKliDOM0M9NoOecYUVgdyg8dDR37e&s=10" group-title="Ben 10: Alien Force [Hindi]",EP-01
 https://pixeldrain.net/api/file/4kaXKQz1?download
 
@@ -2180,6 +2044,12 @@ https://pixeldrain.net/api/file/KiuMNzR2
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlV_Q6rLFWWvAiMy0HGJiXA0-isWSMKliDOM0M9NoOecYUVgdyg8dDR37e&s=10" group-title="Ben 10: Alien Force [Hindi]",EP-46
 https://pixeldrain.net/api/file/twhYXgDe
+
+
+
+
+
+
 
 
 
@@ -2345,14 +2215,19 @@ https://pixeldrain.net/api/file/HrPWrrwB?download
 
 
 
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://blog-cdn.play.asia/wp-content/uploads/2020/12/BigNews_Post_doraemonpre.jpg" group-title="Doramon Movies",Nobita's Little Star Wars 2021 (2026)
-https://pixeldrain.net/api/file/kEU95d1z?download
 
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://i.ytimg.com/vi/RNhqT4gj2Eo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDSy64VeSQZRu2I8_AmQXtfUfcPIw" group-title="Doramon Movies",Nobita's Sky Utopia (2025)
+
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThoJZUoPKdbw2ZkXDSGTb3ETMaF4rpfT2s2ca0Pin-po0xALpZzWbz47Q&s=10" group-title="Doramon Movies",Nobita Earth Symphony (2024)
+https://pixeldrain.net/api/file/imfuWRFs?download
+
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://i.ytimg.com/vi/RNhqT4gj2Eo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDSy64VeSQZRu2I8_AmQXtfUfcPIw" group-title="Doramon Movies",Nobita's Sky Utopia (2023)
 https://pixeldrain.net/api/file/yrcMzakM?download
 
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThoJZUoPKdbw2ZkXDSGTb3ETMaF4rpfT2s2ca0Pin-po0xALpZzWbz47Q&s=10" group-title="Doramon Movies",Nobita Earth Symphony (2025)
-https://pixeldrain.net/api/file/imfuWRFs?download
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://blog-cdn.play.asia/wp-content/uploads/2020/12/BigNews_Post_doraemonpre.jpg" group-title="Doramon Movies",Nobita's Little Star Wars 2021 (2022)
+https://pixeldrain.net/api/file/kEU95d1z?download
+
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://image.idntimes.com/post/20200302/doraemon-the-movie-8580f4e4526b71173c057277fc3de438.jpg" group-title="Doramon Movies",The island of miracles animal adventure (2019)
+https://pixeldrain.net/api/file/CdKDM2BE?download
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://play.asia/blog/wp-content/uploads/2018/02/big_news_fbtwitter_catSlide_preOrder_doraemonNobitasTreasureIsland.jpg" group-title="Doramon Movies",Treasure island (2018)
 https://pixeldrain.net/api/file/PRpEYcMy?download
@@ -2372,17 +2247,11 @@ https://pixeldrain.net/api/file/zqFpQcr6?download
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://i.ytimg.com/vi/GH3sp_grSC4/sddefault.jpg" group-title="Doramon Movies",M12- Nobita The Explore Bow Bow (2014)
 https://pixeldrain.net/api/file/ww3Rh1Pg?download
 
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlCENJZJw4LWo55ATx-Xh_4PIpeb5oldwNs_NztnXITPH-5PtcLzLpoMM&s=10" group-title="Doramon Movies",Gadget Museum Ka Rahasya (2013)
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://images6.alphacoders.com/114/1147747.jpg" group-title="Doramon Movies",Gadget Museum Ka Rahasya (2013)
 https://pixeldrain.net/api/file/mZ8LCPYV?download
 
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNRJyvMf8icuWHdw7wwM2B6HbTqBdQnzRicRPfRjLQlmK_VgTIR1yWhMbz&s=10" group-title="Doramon Movies",Jadoo Mantar Aur Jahnoom (2013)
-https://pixeldrain.net/api/file/BFRfGWQL?download
-
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhuWwB9M126dJkM3jk5NQPHPsW2sUdFV10VID1kQcbIWEMIceHo45_M4&s=10" group-title="Doramon Movies",Nobita Aur Jadooi Tapu (2013)
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWhuWwB9M126dJkM3jk5NQPHPsW2sUdFV10VID1kQcbIWEMIceHo45_M4&s=10" group-title="Doramon Movies",Nobita Aur Jadooi Tapu (2012)
 https://pixeldrain.net/api/file/m2YkEWrE?download
-
-#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://alchetron.com/cdn/Doraemon-Nobita-and-the-Island-of-Miracles-Animal-Adventure-images-00867b76-8f84-4172-9db6-f1b6df6a2c2.jpg" group-title="Doramon Movies",The island of miracles animal adventure (2012)
-https://pixeldrain.net/api/file/CdKDM2BE?download
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://i.ytimg.com/vi/Cv5pUGglbco/sddefault.jpg" group-title="Doramon Movies",The New Steel Troops Angel (2011)
 https://pixeldrain.net/api/file/9WXDCzB2?download
@@ -2398,6 +2267,9 @@ https://pixeldrain.net/api/file/2X2dJHR5?download
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKw6_o_eaRTblbcjxhjMx_jou6fZmYvLjInQAtRpXn4cO4kXhyu5D2P58k&s=10" group-title="Doramon Movies",Nobita In Hara Hara Planet (2008)
 https://pixeldrain.net/api/file/M12Ue4S5?download
+
+#EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNRJyvMf8icuWHdw7wwM2B6HbTqBdQnzRicRPfRjLQlmK_VgTIR1yWhMbz&s=10" group-title="Doramon Movies",Jadoo Mantar Aur Jahnoom (2007)
+https://pixeldrain.net/api/file/BFRfGWQL?download
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7lYMV6fDjmUFmucibJWb5LDa5cCQ9yDJeTa6R-Mln84GfddyZ97kWhJui&s=10" group-title="Doramon Movies",Nobita in the wannyan spacetime Odyssey (2004)
 https://pixeldrain.net/api/file/cE2FQdNB?download
@@ -2458,6 +2330,8 @@ https://pixeldrain.net/api/file/fu3Vs8VV?download
 
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUCnSm1WcMbZ-L0vSwNhKscnabsyENSm5i-II8t2U3Zg&s" group-title="Doramon Movies",Nobita's Dinosaur(1980)
 https://pixeldrain.net/api/file/8ZxuwE7r?download
+
+
 
 
 
@@ -2616,7 +2490,20 @@ https://pixeldrain.net/api/file/BKXZxBDF?download
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 50" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21",Episode 50
 https://pixeldrain.net/api/file/GybW9kfJ?download
 
+
 #EXTINF:-1 tvg-type="movie" vod-type="movie" tvg-name="Episode 50" tvg-logo="https://image.tmdb.org/t/p/w500/aL9BRFZuLzbuvhtrlTYs1ix1apu.jpg" group-title="Doraemon Season 21",Episode 51
 https://pixeldrain.net/api/file/pRdmdGEh?download
+
+
+
+
+
+
+
+
+
+
+
+
 
 
