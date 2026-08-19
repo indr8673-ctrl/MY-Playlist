@@ -13,10 +13,21 @@ except Exception as e:
 # আপনার সব ক্যাটাগরির লোগোর সম্পূর্ণ তালিকা
 # ==========================================================
 my_category_logos = {
-    "Doramon Movies": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
+    # Avengers & Marvel Category
+    "Avengers Movies": "https://spoilertown.com/wp-content/uploads/2024/06/avengers-age-of-ultron-2015.webp",
+    "Avengers": "https://spoilertown.com/wp-content/uploads/2024/06/avengers-age-of-ultron-2015.webp",
+    
+    # Doraemon Categories
+    "Doraemon Season 20": "https://i.ytimg.com/vi/mFDyVwLIsyo/sddefault.jpg",
     "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
+    "Doramon Movies": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
+    "Doraemon": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
+    
+    # Ben 10 Categories
     "Ben 10: Ultimate Alien [Hindi]": "https://i.ytimg.com/vi/Nle2PdBmlhQ/hq720.jpg",
     "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
+    
+    # Other TV Categories
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
     "Entertainment": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",
     "Movie": "https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",
@@ -53,7 +64,7 @@ for line in my_playlist.splitlines():
 
 my_playlist_updated = "\n".join(processed_my_playlist)
 
-# ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার অংশ
+# ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার অংশ (Voot প্লেলিস্ট যুক্ত করা হয়েছে)
 playlists_to_add = [
     {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
     {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"},
@@ -64,10 +75,10 @@ playlists_to_add = [
     {"group_name": "RoarZone", "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"},
     {"group_name": "BDIX", "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png", "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"},
     {"group_name": "Airtle", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgSPglUdjjlHBf0xYp1gN8OCmo4Qh3O7wrfvPozLkvqVKpXyEqe2-Zf03&s=10", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/Darktv.php"},
-    {"group_name": "Voot", "group_logo": "https://play-lh.googleusercontent.com/InSOp5thAKQxms_ZZfRVjefSQFX2_WDTR1B03C3zcmxftJUkOWC2c__ciwfFLwxT2G6aRQmjfMV28-tnV6dE0w=w480-h960-rw", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/vood.m3u"},
     {"group_name": "DISH TV", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGvSp-6mhLM2r2dKmECZY6s0CdjlDbbO_ZHhRFKr3JV7kB8n-nVjaFfA&s=10", "url": "http://140.245.107.220:5001/channels?url=https://alex4528.site/playlist/dishtv.m3u"},
     {"group_name": "WATCHO", "group_logo": "https://img.utdstc.com/icon/6b0/3c7/6b03c798381482dfe5aa03b26b2431be6d7e6fcc00d14f27939ab525887d1fb9:600", "url": "http://140.245.107.220:5001/channels?url=https://gist.githubusercontent.com/ArcReactorCode/9ff3a4356291e6267ac76e30e4c44bc4/raw/watcho.m3u"},
-    {"group_name": "AlixBD", "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg", "url": "http://alixbd.com/2022.m3u"}
+    {"group_name": "AlixBD", "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg", "url": "http://alixbd.com/2022.m3u"},
+    {"group_name": "Voot", "group_logo": "https://play-lh.googleusercontent.com/InSOp5thAKQxms_ZZfRVjefSQFX2_WDTR1B03C3zcmxftJUkOWC2c__ciwfFLwxT2G6aRQmjfMV28-tnV6dE0w=w480-h960-rw", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/vood.m3u"}
 ]
 
 headers = {'User-Agent': 'Mozilla/5.0'}
@@ -112,4 +123,4 @@ final_content = f"{my_playlist_updated}\n\n{external_content}" if external_conte
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated successfully with all categories!")
+print("Playlist updated successfully with Voot!")
