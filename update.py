@@ -41,6 +41,7 @@ my_category_logos = {
     "English Movies": "https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",
     "Sports": "https://img.magnific.com/premium-vector/professional-tv-channel-logo-design-concept-vector-illustration_875240-1836.jpg?semt=ais_test_b&w=740&q=80",
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
+    "Abox-Bdix": "https://web.telegram.org/445c4f67-2529-4786-ba4f-0c3cc9cd9e11",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
