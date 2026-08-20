@@ -10,10 +10,12 @@ except Exception as e:
     my_playlist = "#EXTM3U"
 
 # ==========================================================
-# আপনার সব ক্যাটাগরির লোগোর সম্পূর্ণ তালিকা (Season 22 যুক্ত করা হয়েছে)
+# আপনার সব ক্যাটাগরির লোগোর সম্পূর্ণ তালিকা
 # ==========================================================
 my_category_logos = {
     # Doraemon Categories
+    "Doraemon Season 08": "https://static.episodate.com/images/tv-show/full/73723.jpg",
+    "Doraemon S08": "https://static.episodate.com/images/tv-show/full/73723.jpg",
     "Doraemon Season 22": "https://images.justwatch.com/poster/339817061/s166/season-22.jpg",
     "Doraemon Season 20": "https://i.ytimg.com/vi/mFDyVwLIsyo/sddefault.jpg",
     "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
@@ -42,6 +44,8 @@ my_category_logos = {
     "Sports": "https://img.magnific.com/premium-vector/professional-tv-channel-logo-design-concept-vector-illustration_875240-1836.jpg?semt=ais_test_b&w=740&q=80",
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
     "Abox-Bdix": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
+    "ABOX BDIX": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
+    "ABOX": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
@@ -126,4 +130,4 @@ final_content = f"{my_playlist_updated}\n\n{external_content}" if external_conte
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated successfully with Doraemon Season 22!")
+print("Playlist updated successfully!")
