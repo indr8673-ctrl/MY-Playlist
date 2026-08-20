@@ -41,7 +41,7 @@ my_category_logos = {
     "English Movies": "https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",
     "Sports": "https://img.magnific.com/premium-vector/professional-tv-channel-logo-design-concept-vector-illustration_875240-1836.jpg?semt=ais_test_b&w=740&q=80",
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
-    "Abox-Bdix": "https://web.telegram.org/445c4f67-2529-4786-ba4f-0c3cc9cd9e11",
+    "Abox-Bdix": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
@@ -71,7 +71,7 @@ playlists_to_add = [
     {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
     {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"},
     {"group_name": "Toffee BD", "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"},
-    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash-direct.m3u"},
+    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u?fbclid=IwdGRjcATzQBljbGNrBPNAEXBkb2YBZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEefduH1MAfT2SvwOhkDXE9RTCD7azVF6GCXZviY_uy3Il7fN_fH-VY8_9Lv6I_aem_jg3quAvOK63mBVW4upmwUQ"},
     {"group_name": "BDIX TV", "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"},
     {"group_name": "Ayna TV", "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg", "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u"},
     {"group_name": "RoarZone", "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"},
