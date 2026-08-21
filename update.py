@@ -16,6 +16,7 @@ my_category_logos = {
     # Doraemon Categories
     "Doraemon Season 08": "https://static.episodate.com/images/tv-show/full/73723.jpg",
     "Doraemon S08": "https://static.episodate.com/images/tv-show/full/73723.jpg",
+    "Doraemon Season 09": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi2q4-7myJaBDZh504ZzeIS2acbn4WvFXzxMbIJKnraA&s=10",
     "Doraemon Season 22": "https://images.justwatch.com/poster/339817061/s166/season-22.jpg",
     "Doraemon Season 20": "https://i.ytimg.com/vi/mFDyVwLIsyo/sddefault.jpg",
     "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
