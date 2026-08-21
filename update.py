@@ -44,9 +44,7 @@ my_category_logos = {
     "English Movies": "https://i.pinimg.com/474x/bd/30/44/bd3044c117c29cb24fc00e9d94a09510.jpg",
     "Sports": "https://img.magnific.com/premium-vector/professional-tv-channel-logo-design-concept-vector-illustration_875240-1836.jpg?semt=ais_test_b&w=740&q=80",
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
-    "Abox-Bdix": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
-    "ABOX BDIX": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
-    "ABOX": "https://i.postimg.cc/mD8zQx1w/abox-bdix.jpg",
+    "Abox-Bdix": "https://pixeldrain.com/u/QHfF6CoF",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
@@ -86,7 +84,8 @@ playlists_to_add = [
     {"group_name": "WATCHO", "group_logo": "https://img.utdstc.com/icon/6b0/3c7/6b03c798381482dfe5aa03b26b2431be6d7e6fcc00d14f27939ab525887d1fb9:600", "url": "http://140.245.107.220:5001/channels?url=https://gist.githubusercontent.com/ArcReactorCode/9ff3a4356291e6267ac76e30e4c44bc4/raw/watcho.m3u"},
     {"group_name": "AlixBD", "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg", "url": "http://alixbd.com/2022.m3u"},
     {"group_name": "Voot", "group_logo": "https://play-lh.googleusercontent.com/InSOp5thAKQxms_ZZfRVjefSQFX2_WDTR1B03C3zcmxftJUkOWC2c__ciwfFLwxT2G6aRQmjfMV28-tnV6dE0w=w480-h960-rw", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/vood.m3u"},
-    {"group_name": "Jio Hotstar", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6sDvhN3R7Qp8kS-gP1w2zH41-WlqU2_L1vg&s", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u"}
+    {"group_name": "Jio TV", "group_logo": "https://crystalpng.com/wp-content/uploads/2025/10/jiotv-logo.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_tv.m3u"},
+    {"group_name": "Jio Hotstar", "group_logo": "https://pbs.twimg.com/media/GjsHOY6WwAAAErg.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u"}
 ]
 
 headers = {'User-Agent': 'Mozilla/5.0'}
