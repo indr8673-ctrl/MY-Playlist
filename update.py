@@ -2,7 +2,7 @@ import re
 import requests
 from concurrent.futures import ThreadPoolExecutor
 
-# ১. tv.m3u ফাইল পড়া
+# ১. tv.m3u ফাইল পড়া
 try:
     with open('tv.m3u', 'r', encoding='utf-8') as f:
         my_playlist = f.read().strip()
@@ -52,7 +52,7 @@ my_category_logos = {
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
 
-# ২. tv.m3u ফাইলের সব লাইন প্রসেস করা (নিজের প্লেলিস্ট সেম থাকবে)
+# ২. tv.m3u ফাইলের সব লাইন প্রসেস করা
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
@@ -71,9 +71,10 @@ my_playlist_updated = "\n".join(processed_my_playlist)
 
 # ==========================================================
 # ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার অংশ
-# শুধুমাত্র Jio TV এবং Airtle-এ "check_stream": True করা হয়েছে।
+# Opplex TV (শুধুমাত্র ইন্ডিয়ান চ্যানেলগুলো ফিল্টার হবে)
 # ==========================================================
 playlists_to_add = [
+    {"group_name": "Opplex TV", "group_logo": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png", "url": "https://raw.githubusercontent.com/johirxofficial/otv-auto-updated-playlist/main/otv.m3u", "check_stream": False, "indian_only": True},
     {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php", "check_stream": False},
     {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u", "check_stream": False},
     {"group_name": "Toffee BD", "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u", "check_stream": False},
@@ -91,7 +92,7 @@ playlists_to_add = [
     {"group_name": "Jio Hotstar", "group_logo": "https://pbs.twimg.com/media/GjsHOY6WwAAAErg.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u", "check_stream": False}
 ]
 
-# ৪. লিংক সচল আছে কিনা তা যাচাইয়ের দ্রুত ফাংশন
+# ৪. লিংক সচল আছে কিনা তা যাচাইয়ের দ্রুত ফাংশন
 def is_url_alive(stream_url):
     try:
         req_headers = {'User-Agent': 'Mozilla/5.0'}
@@ -112,6 +113,7 @@ for item in playlists_to_add:
     group_logo = item.get("group_logo", "")
     url = item["url"]
     check_enabled = item.get("check_stream", False)
+    indian_only = item.get("indian_only", False)
 
     if not url:
         continue
@@ -129,6 +131,14 @@ for item in playlists_to_add:
                     if i + 1 < len(lines) and not lines[i+1].startswith('#'):
                         stream_url = lines[i+1].strip()
                         
+                        # যদি কেবল ইন্ডিয়ান চ্যানেল ফিল্টার করার শর্ত থাকে (Opplex TV-র জন্য)
+                        if indian_only:
+                            is_indian = re.search(r'group-title="[^"]*IND', extinf_line, re.I) or \
+                                        re.search(r'group-title="[^"]*INDIAN', extinf_line, re.I) or \
+                                        "IND |" in extinf_line or "INDIAN |" in extinf_line
+                            if not is_indian:
+                                continue
+                        
                         extinf_line = re.sub(r'group-title="[^"]*"', '', extinf_line)
                         extinf_line = re.sub(r'group-logo="[^"]*"', '', extinf_line)
                         logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
@@ -141,7 +151,7 @@ for item in playlists_to_add:
                         
                         temp_channels.append({"extinf": formatted_extinf, "url": stream_url})
 
-            # যদি এই সেকশনের জন্য check_stream True থাকে (Jio TV ও Airtle)
+            # স্ট্রিম চেক (Jio TV ও Airtle এর জন্য)
             if check_enabled and temp_channels:
                 def process_channel(ch):
                     if is_url_alive(ch["url"]):
@@ -154,7 +164,6 @@ for item in playlists_to_add:
                         if res:
                             all_external_channels.append(res)
             else:
-                # check_stream False থাকলে সব চ্যানেল ফিল্টার ছাড়াই যুক্ত হবে
                 for ch in temp_channels:
                     all_external_channels.append(f"{ch['extinf']}\n{ch['url']}")
 
@@ -168,4 +177,4 @@ final_content = f"{my_playlist_updated}\n\n{external_content}" if external_conte
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated: Only Jio TV & Airtle channels filtered!")
+print("Playlist updated: Opplex TV with Indian channels added successfully!")
