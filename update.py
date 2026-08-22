@@ -1,5 +1,6 @@
 import re
 import requests
+from concurrent.futures import ThreadPoolExecutor
 
 # ১. tv.m3u ফাইল পড়া
 try:
@@ -45,49 +46,64 @@ my_category_logos = {
     "Sports": "https://img.magnific.com/premium-vector/professional-tv-channel-logo-design-concept-vector-illustration_875240-1836.jpg?semt=ais_test_b&w=740&q=80",
     "ID News": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png",
     "Abox-Bdix": "https://pixeldrain.com/u/QHfF6CoF",
+    "ABOX BDIX": "https://pixeldrain.com/u/QHfF6CoF",
+    "ABOX": "https://pixeldrain.com/u/QHfF6CoF",
     "Music": "https://static.vecteezy.com/system/resources/previews/021/813/091/non_2x/music-tv-logo-design-template-with-tv-icon-and-music-icon-perfect-for-business-company-mobile-app-restaurant-etc-free-vector.jpg",
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
 
-# ২. tv.m3u ফাইলের সব লাইন অক্ষত রেখে প্রসেস করা
+# ২. tv.m3u ফাইলের সব লাইন প্রসেস করা (নিজের প্লেলিস্ট সেম থাকবে)
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
-    
     if line_str.startswith('#EXTINF'):
         match = re.search(r'group-title="([^"]+)"', line_str)
         if match:
             group_name = match.group(1)
-            # লোগো ম্যাচ করানো
             for key, logo_url in my_category_logos.items():
                 if key.lower() in group_name.lower():
                     if 'group-logo=' not in line_str or 'group-logo=""' in line_str:
                         line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
                     break
-                    
     processed_my_playlist.append(line_str)
 
 my_playlist_updated = "\n".join(processed_my_playlist)
 
+# ==========================================================
 # ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার অংশ
+# শুধুমাত্র Jio TV এবং Airtle-এ "check_stream": True করা হয়েছে।
+# ==========================================================
 playlists_to_add = [
-    {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
-    {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"},
-    {"group_name": "Toffee BD", "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"},
-    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u?fbclid=IwdGRjcATzQBljbGNrBPNAEXBkb2YBZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEefduH1MAfT2SvwOhkDXE9RTCD7azVF6GCXZviY_uy3Il7fN_fH-VY8_9Lv6I_aem_jg3quAvOK63mBVW4upmwUQ"},
-    {"group_name": "BDIX TV", "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"},
-    {"group_name": "Ayna TV", "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg", "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u"},
-    {"group_name": "RoarZone", "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"},
-    {"group_name": "BDIX", "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png", "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus"},
-    {"group_name": "Airtle", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgSPglUdjjlHBf0xYp1gN8OCmo4Qh3O7wrfvPozLkvqVKpXyEqe2-Zf03&s=10", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/Darktv.php"},
-    {"group_name": "DISH TV", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGvSp-6mhLM2r2dKmECZY6s0CdjlDbbO_ZHhRFKr3JV7kB8n-nVjaFfA&s=10", "url": "http://140.245.107.220:5001/channels?url=https://alex4528.site/playlist/dishtv.m3u"},
-    {"group_name": "WATCHO", "group_logo": "https://img.utdstc.com/icon/6b0/3c7/6b03c798381482dfe5aa03b26b2431be6d7e6fcc00d14f27939ab525887d1fb9:600", "url": "http://140.245.107.220:5001/channels?url=https://gist.githubusercontent.com/ArcReactorCode/9ff3a4356291e6267ac76e30e4c44bc4/raw/watcho.m3u"},
-    {"group_name": "AlixBD", "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg", "url": "http://alixbd.com/2022.m3u"},
-    {"group_name": "Voot", "group_logo": "https://play-lh.googleusercontent.com/InSOp5thAKQxms_ZZfRVjefSQFX2_WDTR1B03C3zcmxftJUkOWC2c__ciwfFLwxT2G6aRQmjfMV28-tnV6dE0w=w480-h960-rw", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/vood.m3u"},
-    {"group_name": "Jio TV", "group_logo": "https://crystalpng.com/wp-content/uploads/2025/10/jiotv-logo.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_tv.m3u"},
-    {"group_name": "Jio Hotstar", "group_logo": "https://pbs.twimg.com/media/GjsHOY6WwAAAErg.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u"}
+    {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php", "check_stream": False},
+    {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u", "check_stream": False},
+    {"group_name": "Toffee BD", "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u", "check_stream": False},
+    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u?fbclid=IwdGRjcATzQBljbGNrBPNAEXBkb2YBZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEefduH1MAfT2SvwOhkDXE9RTCD7azVF6GCXZviY_uy3Il7fN_fH-VY8_9Lv6I_aem_jg3quAvOK63mBVW4upmwUQ", "check_stream": False},
+    {"group_name": "BDIX TV", "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u", "check_stream": False},
+    {"group_name": "Ayna TV", "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg", "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u", "check_stream": False},
+    {"group_name": "RoarZone", "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u", "check_stream": False},
+    {"group_name": "BDIX", "group_logo": "https://cdn.aptoide.com/imgs/9/e/3/9e39cb70009f15ce7ec3203725a3ded8_icon.png", "url": "https://xtreamcode.allinonereborn.workers.dev/get.php?username=ratulhasan5a_246&password=lm43mozx&type=m3u_plus", "check_stream": False},
+    {"group_name": "Airtle", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJgSPglUdjjlHBf0xYp1gN8OCmo4Qh3O7wrfvPozLkvqVKpXyEqe2-Zf03&s=10", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/Darktv.php", "check_stream": True},
+    {"group_name": "DISH TV", "group_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyGvSp-6mhLM2r2dKmECZY6s0CdjlDbbO_ZHhRFKr3JV7kB8n-nVjaFfA&s=10", "url": "http://140.245.107.220:5001/channels?url=https://alex4528.site/playlist/dishtv.m3u", "check_stream": False},
+    {"group_name": "WATCHO", "group_logo": "https://img.utdstc.com/icon/6b0/3c7/6b03c798381482dfe5aa03b26b2431be6d7e6fcc00d14f27939ab525887d1fb9:600", "url": "http://140.245.107.220:5001/channels?url=https://gist.githubusercontent.com/ArcReactorCode/9ff3a4356291e6267ac76e30e4c44bc4/raw/watcho.m3u", "check_stream": False},
+    {"group_name": "AlixBD", "group_logo": "https://static.vecteezy.com/system/resources/thumbnails/007/688/855/small/tv-logo-free-vector.jpg", "url": "http://alixbd.com/2022.m3u", "check_stream": False},
+    {"group_name": "Voot", "group_logo": "https://play-lh.googleusercontent.com/InSOp5thAKQxms_ZZfRVjefSQFX2_WDTR1B03C3zcmxftJUkOWC2c__ciwfFLwxT2G6aRQmjfMV28-tnV6dE0w=w480-h960-rw", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/vood.m3u", "check_stream": False},
+    {"group_name": "Jio TV", "group_logo": "https://crystalpng.com/wp-content/uploads/2025/10/jiotv-logo.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_tv.m3u", "check_stream": True},
+    {"group_name": "Jio Hotstar", "group_logo": "https://pbs.twimg.com/media/GjsHOY6WwAAAErg.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u", "check_stream": False}
 ]
 
+# ৪. লিংক সচল আছে কিনা তা যাচাইয়ের দ্রুত ফাংশন
+def is_url_alive(stream_url):
+    try:
+        req_headers = {'User-Agent': 'Mozilla/5.0'}
+        r = requests.head(stream_url, headers=req_headers, timeout=3, allow_redirects=True)
+        if r.status_code in [200, 301, 302]:
+            return True
+        r = requests.get(stream_url, headers=req_headers, timeout=3, stream=True)
+        return r.status_code == 200
+    except Exception:
+        return False
+
+# ৫. চ্যানেল প্রসেসিং
 headers = {'User-Agent': 'Mozilla/5.0'}
 all_external_channels = []
 
@@ -95,6 +111,7 @@ for item in playlists_to_add:
     group_name = item["group_name"]
     group_logo = item.get("group_logo", "")
     url = item["url"]
+    check_enabled = item.get("check_stream", False)
 
     if not url:
         continue
@@ -102,32 +119,53 @@ for item in playlists_to_add:
     try:
         response = requests.get(url, headers=headers, timeout=10)
         if response.status_code == 200:
-            for line in response.text.splitlines():
-                line_str = line.strip()
-                if not line_str or line_str.startswith('#EXTM3U'):
-                    continue
-
+            lines = response.text.splitlines()
+            temp_channels = []
+            
+            for i in range(len(lines)):
+                line_str = lines[i].strip()
                 if line_str.startswith('#EXTINF'):
-                    line_str = re.sub(r'group-title="[^"]*"', '', line_str)
-                    line_str = re.sub(r'group-logo="[^"]*"', '', line_str)
-                    
-                    logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
-                    
-                    if ',' in line_str:
-                        parts = line_str.split(',', 1)
-                        line_str = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
-                    else:
-                        line_str = f'{line_str} group-title="{group_name}"{logo_attr}'
+                    extinf_line = line_str
+                    if i + 1 < len(lines) and not lines[i+1].startswith('#'):
+                        stream_url = lines[i+1].strip()
+                        
+                        extinf_line = re.sub(r'group-title="[^"]*"', '', extinf_line)
+                        extinf_line = re.sub(r'group-logo="[^"]*"', '', extinf_line)
+                        logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
+                        
+                        if ',' in extinf_line:
+                            parts = extinf_line.split(',', 1)
+                            formatted_extinf = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
+                        else:
+                            formatted_extinf = f'{extinf_line} group-title="{group_name}"{logo_attr}'
+                        
+                        temp_channels.append({"extinf": formatted_extinf, "url": stream_url})
 
-                all_external_channels.append(line_str)
+            # যদি এই সেকশনের জন্য check_stream True থাকে (Jio TV ও Airtle)
+            if check_enabled and temp_channels:
+                def process_channel(ch):
+                    if is_url_alive(ch["url"]):
+                        return f"{ch['extinf']}\n{ch['url']}"
+                    return None
+
+                with ThreadPoolExecutor(max_workers=10) as executor:
+                    results = executor.map(process_channel, temp_channels)
+                    for res in results:
+                        if res:
+                            all_external_channels.append(res)
+            else:
+                # check_stream False থাকলে সব চ্যানেল ফিল্টার ছাড়াই যুক্ত হবে
+                for ch in temp_channels:
+                    all_external_channels.append(f"{ch['extinf']}\n{ch['url']}")
+
     except Exception:
         continue
 
-# ৪. আউটপুট ফাইল তৈরি
+# ৬. আউটপুট ফাইল তৈরি
 external_content = "\n".join(all_external_channels)
 final_content = f"{my_playlist_updated}\n\n{external_content}" if external_content else my_playlist_updated
 
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated successfully!")
+print("Playlist updated: Only Jio TV & Airtle channels filtered!")
