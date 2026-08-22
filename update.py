@@ -13,7 +13,6 @@ except Exception as e:
 # আপনার সব ক্যাটাগরির লোগোর সম্পূর্ণ তালিকা
 # ==========================================================
 my_category_logos = {
-    # Doraemon Categories
     "Doraemon Season 08": "https://static.episodate.com/images/tv-show/full/73723.jpg",
     "Doraemon S08": "https://static.episodate.com/images/tv-show/full/73723.jpg",
     "Doraemon Season 09": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi2q4-7myJaBDZh504ZzeIS2acbn4WvFXzxMbIJKnraA&s=10",
@@ -22,16 +21,10 @@ my_category_logos = {
     "Doraemon Season 21": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
     "Doramon Movies": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
     "Doraemon": "https://image.tmdb.org/t/p/w500/al9BRFZuLzbuvhtrlTYs1ix1apu.jpg",
-
-    # Avengers & Marvel Category
     "Avengers Movies": "https://spoilertown.com/wp-content/uploads/2024/06/avengers-age-of-ultron-2015.webp",
     "Avengers": "https://spoilertown.com/wp-content/uploads/2024/06/avengers-age-of-ultron-2015.webp",
-    
-    # Ben 10 Categories
     "Ben 10: Ultimate Alien [Hindi]": "https://i.ytimg.com/vi/Nle2PdBmlhQ/hq720.jpg",
     "Ben 10": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1V_Q6rLFMWvAiMy0HGJIxAB-isM5MK1iDOM0M9NoOecYUvgyg8DDR37eS&s=10",
-    
-    # Other TV Categories
     "Kid": "https://www.shutterstock.com/image-vector/kids-text-logo-movie-editable-260nw-2536104593.jpg",
     "Entertainment": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9sZttim5GLAbajaB_Jnq3xBGpj2hn3S1dOpLFU3M25kPK1dz28hOV3E4&s=10",
     "Movie": "https://thumbs.dreamstime.com/b/movie-text-logo-cinema-film-entertainment-industry-png-transparent-image-stylized-related-content-representing-films-364904222.jpg",
@@ -49,22 +42,19 @@ my_category_logos = {
     "Toffee": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png"
 }
 
-# ২. tv.m3u ফাইলের সব লাইন অক্ষত রেখে প্রসেস করা
+# ২. tv.m3u প্রসেস করা
 processed_my_playlist = []
 for line in my_playlist.splitlines():
     line_str = line.strip()
-    
     if line_str.startswith('#EXTINF'):
         match = re.search(r'group-title="([^"]+)"', line_str)
         if match:
             group_name = match.group(1)
-            # লোগো ম্যাচ করানো
             for key, logo_url in my_category_logos.items():
                 if key.lower() in group_name.lower():
                     if 'group-logo=' not in line_str or 'group-logo=""' in line_str:
                         line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
                     break
-                    
     processed_my_playlist.append(line_str)
 
 my_playlist_updated = "\n".join(processed_my_playlist)
@@ -75,7 +65,7 @@ playlists_to_add = [
     {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
     {"group_name": "Sony BD 2", "group_logo": "https://ottking.in/wp-content/uploads/2022/12/sony-logo-768x768.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/sonyLiv.m3u"},
     {"group_name": "Toffee BD", "group_logo": "https://cdn.aptoide.com/imgs/d/e/c/dec7398ec8030c41f581dab8c64a7876_fgraphic.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/Toffee-Auto-Update/refs/heads/main/toffee_playlist.m3u"},
-    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u?fbclid=IwdGRjcATzQBljbGNrBPNAEXBkb2YBZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEefduH1MAfT2SvwOhkDXE9RTCD7azVF6GCXZviY_uy3Il7fN_fH-VY8_9Lv6I_aem_jg3quAvOK63mBVW4upmwUQ"},
+    {"group_name": "AKASH", "group_logo": "https://cdnhost.akashbd.net/assets/images/akash-facebook-banner.jpg?v=10.5.15", "url": "https://raw.githubusercontent.com/srhady/Hady/refs/heads/main/akash_live.m3u"},
     {"group_name": "BDIX TV", "group_logo": "https://bdix.net//wp-content/uploads/2019/04/bdxl-logo1.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/SM_bdix.m3u"},
     {"group_name": "Ayna TV", "group_logo": "https://aynaott.com/assets/images/logo/logo_bg.jpeg", "url": "https://raw.githubusercontent.com/abusaeeidx/Ayna-BDIX-IPTV-Playlist/refs/heads/main/ayna-playlist.m3u"},
     {"group_name": "RoarZone", "group_logo": "https://assets.appmeme.com/com.roarzone.tvapps--3-icon.png", "url": "https://raw.githubusercontent.com/sm-monirulislam/RoarZone-Auto-Update-playlist/refs/heads/main/RoarZone.m3u"},
@@ -89,7 +79,10 @@ playlists_to_add = [
     {"group_name": "Jio Hotstar", "group_logo": "https://pbs.twimg.com/media/GjsHOY6WwAAAErg.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u"}
 ]
 
-headers = {'User-Agent': 'Mozilla/5.0'}
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
+
 all_external_channels = []
 
 for item in playlists_to_add:
@@ -98,52 +91,53 @@ for item in playlists_to_add:
     url = item["url"]
     indian_only = item.get("indian_only", False)
 
-    if not url:
-        continue
-
     try:
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            lines = response.text.splitlines()
-            i = 0
-            while i < len(lines):
-                line_str = lines[i].strip()
+        response = requests.get(url, headers=headers, timeout=15)
+        if response.status_code == 200 and response.text.strip():
+            lines = [l.strip() for l in response.text.splitlines() if l.strip()]
+            idx = 0
+            total_lines = len(lines)
+            
+            while idx < total_lines:
+                line = lines[idx]
                 
-                if line_str.startswith('#EXTINF'):
-                    extinf_line = line_str
-                    stream_url = ""
-                    
-                    # পরের লাইনে স্ট্রিম লিঙ্ক খোঁজা
-                    if i + 1 < len(lines) and not lines[i+1].strip().startswith('#'):
-                        stream_url = lines[i+1].strip()
-                        i += 1  # লিঙ্ক পড়া শেষ, ইনডেক্স ১ বাড়ানো হলো
-                    
-                    # Opplex TV হলে কেবল IND / INDIAN ফিল্টার করা
+                if line.startswith('#EXTINF:'):
+                    # Opplex TV-এর জন্য Indian Filter
                     if indian_only:
-                        is_indian = re.search(r'group-title="[^"]*(IND|INDIAN)', extinf_line, re.I) or \
-                                    "IND |" in extinf_line or "INDIAN |" in extinf_line
+                        is_indian = bool(re.search(r'group-title="[^"]*(IND|INDIAN)', line, re.I)) or "IND |" in line or "INDIAN |" in line
                         if not is_indian:
-                            i += 1
+                            idx += 1
                             continue
 
-                    extinf_line = re.sub(r'group-title="[^"]*"', '', extinf_line)
-                    extinf_line = re.sub(r'group-logo="[^"]*"', '', extinf_line)
-                    
+                    # গ্রুপ ও লোগো আপডেট
+                    line = re.sub(r'group-title="[^"]*"', '', line)
+                    line = re.sub(r'group-logo="[^"]*"', '', line)
                     logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
                     
-                    if ',' in extinf_line:
-                        parts = extinf_line.split(',', 1)
-                        formatted_extinf = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
+                    if ',' in line:
+                        parts = line.split(',', 1)
+                        formatted_info = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
                     else:
-                        formatted_extinf = f'{extinf_line} group-title="{group_name}"{logo_attr}'
+                        formatted_info = f'{line} group-title="{group_name}"{logo_attr}'
 
-                    all_external_channels.append(formatted_extinf)
-                    if stream_url:
-                        all_external_channels.append(stream_url)
+                    # আসল চ্যানেল স্ট্রিম লিঙ্ক খোঁজার লুপ (মাঝের কমেন্ট পার হয়ে সঠিক URL পাওয়ার জন্য)
+                    url_found = None
+                    next_idx = idx + 1
+                    while next_idx < total_lines:
+                        nxt_line = lines[next_idx]
+                        if not nxt_line.startswith('#'):
+                            url_found = nxt_line
+                            idx = next_idx
+                            break
+                        next_idx += 1
+
+                    if url_found:
+                        all_external_channels.append(formatted_info)
+                        all_external_channels.append(url_found)
                 
-                i += 1
-    except Exception:
-        continue
+                idx += 1
+    except Exception as e:
+        print(f"Error fetching {group_name}: {e}")
 
 # ৪. আউটপুট ফাইল তৈরি
 external_content = "\n".join(all_external_channels)
@@ -152,4 +146,4 @@ final_content = f"{my_playlist_updated}\n\n{external_content}" if external_conte
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated successfully!")
+print("Playlist updated successfully with all channels!")
