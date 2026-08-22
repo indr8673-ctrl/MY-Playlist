@@ -59,7 +59,7 @@ for line in my_playlist.splitlines():
 
 my_playlist_updated = "\n".join(processed_my_playlist)
 
-# ৩. বাইরের অনলাইন প্লেলিস্ট যুক্ত করার অংশ
+# ৩. বাইরের অনলাইন প্লেলিস্ট
 playlists_to_add = [
     {"group_name": "Opplex TV", "group_logo": "https://e7.pngegg.com/pngimages/3/57/png-clipart-india-news-news-broadcasting-television-news-television-logo.png", "url": "https://raw.githubusercontent.com/johirxofficial/otv-auto-updated-playlist/main/otv.m3u", "indian_only": True},
     {"group_name": "Sony BD", "group_logo": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/www.bizasialive.com/wp-content/uploads/2020/05/899ec721-sonylivnew001.jpg", "url": "http://140.245.107.220:5001/channels?url=https://ranapk-playlist.site/SONYBD.php"},
@@ -79,10 +79,7 @@ playlists_to_add = [
     {"group_name": "Jio Hotstar", "group_logo": "https://pbs.twimg.com/media/GjsHOY6WwAAAErg.jpg", "url": "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/refs/heads/main/jio_hotstar.m3u"}
 ]
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-}
-
+headers = {'User-Agent': 'Mozilla/5.0'}
 all_external_channels = []
 
 for item in playlists_to_add:
@@ -92,52 +89,50 @@ for item in playlists_to_add:
     indian_only = item.get("indian_only", False)
 
     try:
-        response = requests.get(url, headers=headers, timeout=15)
-        if response.status_code == 200 and response.text.strip():
-            lines = [l.strip() for l in response.text.splitlines() if l.strip()]
-            idx = 0
-            total_lines = len(lines)
+        response = requests.get(url, headers=headers, timeout=12)
+        if response.status_code == 200:
+            lines = response.text.splitlines()
+            skip_block = False
             
-            while idx < total_lines:
-                line = lines[idx]
-                
-                if line.startswith('#EXTINF:'):
-                    # Opplex TV-এর জন্য Indian Filter
-                    if indian_only:
-                        is_indian = bool(re.search(r'group-title="[^"]*(IND|INDIAN)', line, re.I)) or "IND |" in line or "INDIAN |" in line
-                        if not is_indian:
-                            idx += 1
-                            continue
+            for line in lines:
+                line_str = line.strip()
+                if not line_str:
+                    continue
 
-                    # গ্রুপ ও লোগো আপডেট
-                    line = re.sub(r'group-title="[^"]*"', '', line)
-                    line = re.sub(r'group-logo="[^"]*"', '', line)
+                # EXTM3U ট্যাগ ইগনোর করা
+                if line_str.startswith('#EXTM3U'):
+                    continue
+
+                if line_str.startswith('#EXTINF'):
+                    # Opplex TV-এর ফিল্টারিং
+                    if indian_only:
+                        is_indian = bool(re.search(r'group-title="[^"]*(IND|INDIAN)', line_str, re.I)) or "IND |" in line_str or "INDIAN |" in line_str
+                        if not is_indian:
+                            skip_block = True
+                            continue
+                        else:
+                            skip_block = False
+                    else:
+                        skip_block = False
+
+                    # মূল চ্যানেল তথ্য এবং লোগো যোগ (কোন কাস্টম প্রপার্টি ডিলিট না করে)
                     logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
                     
-                    if ',' in line:
-                        parts = line.split(',', 1)
-                        formatted_info = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
+                    if 'group-title="' in line_str:
+                        line_str = re.sub(r'group-title="[^"]*"', f'group-title="{group_name}"', line_str)
                     else:
-                        formatted_info = f'{line} group-title="{group_name}"{logo_attr}'
+                        parts = line_str.split(',', 1)
+                        if len(parts) == 2:
+                            line_str = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
 
-                    # আসল চ্যানেল স্ট্রিম লিঙ্ক খোঁজার লুপ (মাঝের কমেন্ট পার হয়ে সঠিক URL পাওয়ার জন্য)
-                    url_found = None
-                    next_idx = idx + 1
-                    while next_idx < total_lines:
-                        nxt_line = lines[next_idx]
-                        if not nxt_line.startswith('#'):
-                            url_found = nxt_line
-                            idx = next_idx
-                            break
-                        next_idx += 1
-
-                    if url_found:
-                        all_external_channels.append(formatted_info)
-                        all_external_channels.append(url_found)
+                    all_external_channels.append(line_str)
                 
-                idx += 1
-    except Exception as e:
-        print(f"Error fetching {group_name}: {e}")
+                elif not skip_block:
+                    # চ্যানেল স্ট্রিম ইউআরএল এবং প্রয়োজনীয় প্লেয়ার হেডার (যেমন #EXTVLCOPT) সরাসরি যোগ হবে
+                    all_external_channels.append(line_str)
+
+    except Exception:
+        continue
 
 # ৪. আউটপুট ফাইল তৈরি
 external_content = "\n".join(all_external_channels)
@@ -146,4 +141,4 @@ final_content = f"{my_playlist_updated}\n\n{external_content}" if external_conte
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated successfully with all channels!")
+print("Playlist updated successfully!")
