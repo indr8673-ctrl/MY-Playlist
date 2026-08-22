@@ -52,6 +52,9 @@ for line in my_playlist.splitlines():
             group_name = match.group(1)
             for key, logo_url in my_category_logos.items():
                 if key.lower() in group_name.lower():
+                    # tvg-logo এবং group-logo উভয় ক্ষেত্রেই সেট করা হচ্ছে
+                    if 'tvg-logo=' not in line_str or 'tvg-logo=""' in line_str:
+                        line_str = line_str.replace('#EXTINF:', f'#EXTINF: tvg-logo="{logo_url}" ')
                     if 'group-logo=' not in line_str or 'group-logo=""' in line_str:
                         line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{logo_url}"')
                     break
@@ -96,11 +99,7 @@ for item in playlists_to_add:
             
             for line in lines:
                 line_str = line.strip()
-                if not line_str:
-                    continue
-
-                # EXTM3U ট্যাগ ইগনোর করা
-                if line_str.startswith('#EXTM3U'):
+                if not line_str or line_str.startswith('#EXTM3U'):
                     continue
 
                 if line_str.startswith('#EXTINF'):
@@ -115,20 +114,24 @@ for item in playlists_to_add:
                     else:
                         skip_block = False
 
-                    # মূল চ্যানেল তথ্য এবং লোগো যোগ (কোন কাস্টম প্রপার্টি ডিলিট না করে)
-                    logo_attr = f' group-logo="{group_logo}"' if group_logo else ''
-                    
+                    # গ্রুপ আপডেট
                     if 'group-title="' in line_str:
                         line_str = re.sub(r'group-title="[^"]*"', f'group-title="{group_name}"', line_str)
                     else:
                         parts = line_str.split(',', 1)
                         if len(parts) == 2:
-                            line_str = f'{parts[0].strip()} group-title="{group_name}"{logo_attr},{parts[1]}'
+                            line_str = f'{parts[0].strip()} group-title="{group_name}",{parts[1]}'
+
+                    # যদি চ্যানেলের নিজস্ব tvg-logo না থাকে, তবে ডিফল্ট গ্রুপের লোগো যোগ করা
+                    if group_logo:
+                        if 'tvg-logo="' not in line_str or 'tvg-logo=""' in line_str:
+                            line_str = line_str.replace('#EXTINF:', f'#EXTINF: tvg-logo="{group_logo}" ')
+                        if 'group-logo="' not in line_str or 'group-logo=""' in line_str:
+                            line_str = line_str.replace(f'group-title="{group_name}"', f'group-title="{group_name}" group-logo="{group_logo}"')
 
                     all_external_channels.append(line_str)
                 
                 elif not skip_block:
-                    # চ্যানেল স্ট্রিম ইউআরএল এবং প্রয়োজনীয় প্লেয়ার হেডার (যেমন #EXTVLCOPT) সরাসরি যোগ হবে
                     all_external_channels.append(line_str)
 
     except Exception:
@@ -141,4 +144,4 @@ final_content = f"{my_playlist_updated}\n\n{external_content}" if external_conte
 with open('playlist.m3u', 'w', encoding='utf-8') as f:
     f.write(final_content)
 
-print("Playlist updated successfully!")
+print("Playlist successfully updated with fixed logos!")
